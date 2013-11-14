@@ -1,0 +1,602 @@
+##gff-version 3
+#!gff-spec-version 1.20
+#!processor NCBI annotwriter
+##sequence-region FN554767.1 1 113346
+##species http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=216592
+FN554767.1	EMBL	region	1	113346	.	+	.	ID=id0;Name=pAA;Dbxref=taxon:216592;Is_circular=true;gbkey=Src;genome=plasmid;mol_type=genomic DNA;plasmid-name=pAA;strain=042
+FN554767.1	EMBL	gene	13	870	.	+	.	ID=gene0;Name=repA;gbkey=Gene;gene=repA;locus_tag=EC042_pAA001
+FN554767.1	EMBL	CDS	13	870	.	+	0	ID=cds0;Name=CBG27754.1;Parent=gene0;Dbxref=GOA:D3H586,InterPro:IPR003446,InterPro:IPR017837,UniProtKB%2FTrEMBL:D3H586,NCBI_GP:CBG27754.1;gbkey=CDS;gene=repA;product=replication protein A;protein_id=CBG27754.1;transl_table=11
+FN554767.1	EMBL	region	34	819	.	+	.	ID=id1;Note=HMMPfam hit to PF02387%2C IncFII_repA%2C score 7e-08;gbkey=misc_feature;gene=repA
+FN554767.1	EMBL	gene	1053	1226	.	+	.	ID=gene1;Name=EC042_pAA002;gbkey=Gene;locus_tag=EC042_pAA002;pseudo=true
+FN554767.1	EMBL	CDS	1053	1226	.	+	0	ID=cds1;Parent=gene1;Dbxref=PSEUDO:CBG27755.1;gbkey=CDS;product=transposase %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	gene	1397	2425	.	+	.	ID=gene2;Name=EC042_pAA003;gbkey=Gene;locus_tag=EC042_pAA003
+FN554767.1	EMBL	CDS	1397	2425	.	+	0	ID=cds2;Name=CBG27756.1;Parent=gene2;Note=no significant database matches;Dbxref=UniProtKB%2FTrEMBL:D3H588,NCBI_GP:CBG27756.1;gbkey=CDS;product=hypothetical protein;protein_id=CBG27756.1;transl_table=11
+FN554767.1	EMBL	gene	2429	2968	.	+	.	ID=gene3;Name=EC042_pAA004;gbkey=Gene;locus_tag=EC042_pAA004
+FN554767.1	EMBL	CDS	2429	2968	.	+	0	ID=cds3;Name=CBG27757.1;Parent=gene3;Dbxref=GOA:D3H589,InterPro:IPR000086,InterPro:IPR011876,InterPro:IPR015797,UniProtKB%2FTrEMBL:D3H589,NCBI_GP:CBG27757.1;gbkey=CDS;product=putative isopentenyl-diphosphate delta-isomerase;protein_id=CBG27757.1;transl_table=11
+FN554767.1	EMBL	region	2510	2908	.	+	.	ID=id2;Note=HMMPfam hit to PF00293%2C NUDIX%2C score 2.3e-16;gbkey=misc_feature
+FN554767.1	EMBL	region	2747	2776	.	+	.	ID=id3;Note=PS00142 Neutral zinc metallopeptidases%2C zinc-binding region signature.;gbkey=misc_feature
+FN554767.1	EMBL	gene	3249	3401	.	-	.	ID=gene4;Name=EC042_pAA005;gbkey=Gene;locus_tag=EC042_pAA005
+FN554767.1	EMBL	CDS	3249	3401	.	-	0	ID=cds4;Name=CBG27758.1;Parent=gene4;Note=no significant database matches;Dbxref=UniProtKB%2FTrEMBL:D3H590,NCBI_GP:CBG27758.1;gbkey=CDS;product=hypothetical protein;protein_id=CBG27758.1;transl_table=11
+FN554767.1	EMBL	gene	3392	3544	.	-	.	ID=gene5;Name=EC042_pAA005A;gbkey=Gene;locus_tag=EC042_pAA005A
+FN554767.1	EMBL	CDS	3392	3544	.	-	0	ID=cds5;Name=CBG27759.1;Parent=gene5;Dbxref=UniProtKB%2FTrEMBL:D3H591,NCBI_GP:CBG27759.1;gbkey=CDS;product=conserved hypothetical protein;protein_id=CBG27759.1;transl_table=11
+FN554767.1	EMBL	region	3777	4196	.	-	.	ID=id4;Note=hit to IS1203 1..421 score: 1901 percent id: 94.77;gbkey=misc_feature
+FN554767.1	EMBL	gene	3817	4142	.	-	.	ID=gene6;Name=EC042_pAA006;gbkey=Gene;locus_tag=EC042_pAA006;pseudo=true
+FN554767.1	EMBL	CDS	4125	4142	.	-	0	ID=cds6;Parent=gene6;Dbxref=PSEUDO:CBG27760.1;gbkey=CDS;product=transposase %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	CDS	3817	4125	.	-	0	ID=cds6;Parent=gene6;Dbxref=PSEUDO:CBG27760.1;gbkey=CDS;product=transposase %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	region	4125	4133	.	-	.	ID=id5;Note=HMMPfam hit to PF01527%2C Transposase_8%2C score 1.8e-13;gbkey=misc_feature;part=1%2F2
+FN554767.1	EMBL	region	3874	4125	.	-	.	ID=id5;Note=HMMPfam hit to PF01527%2C Transposase_8%2C score 1.8e-13;gbkey=misc_feature;part=2%2F2
+FN554767.1	EMBL	region	3988	4053	.	-	.	ID=id6;Note=Predicted helix-turn-helix motif with score 1470.000%2C SD 4.19 at aa 31-52%2C sequence AVICSIAPKIGCTPETLRVWVR;gbkey=misc_feature
+FN554767.1	EMBL	gene	4520	5650	.	+	.	ID=gene7;Name=aatP;gbkey=Gene;gene=aatP;locus_tag=EC042_pAA007
+FN554767.1	EMBL	CDS	4520	5650	.	+	0	ID=cds7;Name=CBG27761.1;Parent=gene7;Dbxref=GOA:D3H593,InterPro:IPR003838,UniProtKB%2FTrEMBL:D3H593,NCBI_GP:CBG27761.1;gbkey=CDS;gene=aatP;product=permease;protein_id=CBG27761.1;transl_table=11
+FN554767.1	EMBL	region	4583	4651	.	+	.	ID=id7;Note=4 probable transmembrane helices predicted for EC042_pAA007 by TMHMM2.0 at aa 22-44%2C 248-270%2C 303-325 and 340-362;gbkey=misc_feature;gene=aatP;part=1%2F4
+FN554767.1	EMBL	region	5261	5329	.	+	.	ID=id7;Note=4 probable transmembrane helices predicted for EC042_pAA007 by TMHMM2.0 at aa 22-44%2C 248-270%2C 303-325 and 340-362;gbkey=misc_feature;gene=aatP;part=2%2F4
+FN554767.1	EMBL	region	5426	5494	.	+	.	ID=id7;Note=4 probable transmembrane helices predicted for EC042_pAA007 by TMHMM2.0 at aa 22-44%2C 248-270%2C 303-325 and 340-362;gbkey=misc_feature;gene=aatP;part=3%2F4
+FN554767.1	EMBL	region	5537	5605	.	+	.	ID=id7;Note=4 probable transmembrane helices predicted for EC042_pAA007 by TMHMM2.0 at aa 22-44%2C 248-270%2C 303-325 and 340-362;gbkey=misc_feature;gene=aatP;part=4%2F4
+FN554767.1	EMBL	gene	5647	6885	.	+	.	ID=gene8;Name=aatA;gbkey=Gene;gene=aatA;locus_tag=EC042_pAA008
+FN554767.1	EMBL	CDS	5647	6885	.	+	0	ID=cds8;Name=CBG27762.1;Parent=gene8;Dbxref=UniProtKB%2FTrEMBL:D3H594,NCBI_GP:CBG27762.1;gbkey=CDS;gene=aatA;product=outer membrane protein;protein_id=CBG27762.1;transl_table=11
+FN554767.1	EMBL	region	5647	5712	.	+	.	ID=id8;Note=Signal peptide predicted for EC042_pAA008 by SignalP 2.0 HMM %28Signal peptide probability 0.929%29 with cleavage site probability 0.926 between residues 22 and 23;gbkey=misc_feature;gene=aatA
+FN554767.1	EMBL	gene	6965	7603	.	+	.	ID=gene9;Name=aatB;gbkey=Gene;gene=aatB;locus_tag=EC042_pAA009
+FN554767.1	EMBL	CDS	6965	7603	.	+	0	ID=cds9;Name=CBG27763.1;Parent=gene9;Dbxref=UniProtKB%2FTrEMBL:D3H595,NCBI_GP:CBG27763.1;gbkey=CDS;gene=aatB;product=aatb;protein_id=CBG27763.1;transl_table=11
+FN554767.1	EMBL	gene	7596	8225	.	+	.	ID=gene10;Name=aatC;gbkey=Gene;gene=aatC;locus_tag=EC042_pAA010
+FN554767.1	EMBL	CDS	7596	8225	.	+	0	ID=cds10;Name=CBG27764.1;Parent=gene10;Dbxref=GOA:D3H596,InterPro:IPR003439,InterPro:IPR003593,InterPro:IPR017871,UniProtKB%2FTrEMBL:D3H596,NCBI_GP:CBG27764.1;gbkey=CDS;gene=aatC;product=ABC transporter%2C ATP-binding protein;protein_id=CBG27764.1;transl_table=11
+FN554767.1	EMBL	region	7674	8192	.	+	.	ID=id9;Note=HMMPfam hit to PF00005%2C ABC_tran%2C score 1.2e-40;gbkey=misc_feature;gene=aatC
+FN554767.1	EMBL	region	7695	7718	.	+	.	ID=id10;Note=PS00017 ATP%2FGTP-binding site motif A %28P-loop%29.;gbkey=misc_feature;gene=aatC
+FN554767.1	EMBL	region	7998	8042	.	+	.	ID=id11;Note=PS00211 ABC transporters family signature.;gbkey=misc_feature;gene=aatC
+FN554767.1	EMBL	gene	8237	9451	.	+	.	ID=gene11;Name=aatD;gbkey=Gene;gene=aatD;locus_tag=EC042_pAA011
+FN554767.1	EMBL	CDS	8237	9451	.	+	0	ID=cds11;Name=CBG27765.1;Parent=gene11;Dbxref=GOA:D3H597,InterPro:IPR003010,UniProtKB%2FTrEMBL:D3H597,NCBI_GP:CBG27765.1;gbkey=CDS;gene=aatD;product=putative membrane protein;protein_id=CBG27765.1;transl_table=11
+FN554767.1	EMBL	region	8300	8368	.	+	.	ID=id12;Note=4 probable transmembrane helices predicted for EC042_pAA011 by TMHMM2.0 at aa 22-44%2C 51-73%2C 86-108 and 121-143;gbkey=misc_feature;gene=aatD;part=1%2F4
+FN554767.1	EMBL	region	8387	8455	.	+	.	ID=id12;Note=4 probable transmembrane helices predicted for EC042_pAA011 by TMHMM2.0 at aa 22-44%2C 51-73%2C 86-108 and 121-143;gbkey=misc_feature;gene=aatD;part=2%2F4
+FN554767.1	EMBL	region	8492	8560	.	+	.	ID=id12;Note=4 probable transmembrane helices predicted for EC042_pAA011 by TMHMM2.0 at aa 22-44%2C 51-73%2C 86-108 and 121-143;gbkey=misc_feature;gene=aatD;part=3%2F4
+FN554767.1	EMBL	region	8597	8665	.	+	.	ID=id12;Note=4 probable transmembrane helices predicted for EC042_pAA011 by TMHMM2.0 at aa 22-44%2C 51-73%2C 86-108 and 121-143;gbkey=misc_feature;gene=aatD;part=4%2F4
+FN554767.1	EMBL	region	8450	8482	.	+	.	ID=id13;Note=PS00013 Prokaryotic membrane lipoprotein lipid attachment site.;gbkey=misc_feature;gene=aatD
+FN554767.1	EMBL	gene	9841	11286	.	-	.	ID=gene12;Name=EC042_pAA012;gbkey=Gene;is_ordered=true;locus_tag=EC042_pAA012;part=1%2F2;pseudo=true
+FN554767.1	EMBL	gene	9748	9837	.	-	.	ID=gene12;Name=EC042_pAA012;gbkey=Gene;is_ordered=true;locus_tag=EC042_pAA012;part=2%2F2;pseudo=true
+FN554767.1	EMBL	CDS	9841	11286	.	-	0	ID=cds12;Parent=gene12;Dbxref=PSEUDO:CBG27766.1;gbkey=CDS;product=transposase %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	CDS	9748	9837	.	-	0	ID=cds12;Parent=gene12;Dbxref=PSEUDO:CBG27766.1;gbkey=CDS;product=transposase %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	region	10312	10908	.	-	.	ID=id14;Note=HMMPfam hit to PF03050%2C Transposase_25%2C score 1.5e-129;gbkey=misc_feature
+FN554767.1	EMBL	gene	11336	11683	.	-	.	ID=gene13;Name=EC042_pAA013;gbkey=Gene;locus_tag=EC042_pAA013
+FN554767.1	EMBL	CDS	11336	11683	.	-	0	ID=cds13;Name=CBG27767.1;Parent=gene13;Dbxref=InterPro:IPR008878,UniProtKB%2FTrEMBL:D3H599,NCBI_GP:CBG27767.1;gbkey=CDS;product=transposase;protein_id=CBG27767.1;transl_table=11
+FN554767.1	EMBL	region	11339	11668	.	-	.	ID=id15;Note=HMMPfam hit to PF05717%2C Transposase_34%2C score 1.1e-67;gbkey=misc_feature
+FN554767.1	EMBL	gene	11680	12081	.	-	.	ID=gene14;Name=EC042_pAA014;gbkey=Gene;locus_tag=EC042_pAA014
+FN554767.1	EMBL	CDS	11680	12081	.	-	0	ID=cds14;Name=CBG27768.1;Parent=gene14;Dbxref=GOA:D3H5A0,InterPro:IPR002514,UniProtKB%2FTrEMBL:D3H5A0,NCBI_GP:CBG27768.1;gbkey=CDS;product=transposase;protein_id=CBG27768.1;transl_table=11
+FN554767.1	EMBL	region	11761	12024	.	-	.	ID=id16;Note=HMMPfam hit to PF01527%2C Transposase_8%2C score 2.2e-24;gbkey=misc_feature
+FN554767.1	EMBL	gene	12310	12543	.	-	.	ID=gene15;Name=EC042_pAA015;gbkey=Gene;locus_tag=EC042_pAA015
+FN554767.1	EMBL	CDS	12310	12543	.	-	0	ID=cds15;Name=CBG27769.1;Parent=gene15;Note=No significant database matches;Dbxref=UniProtKB%2FTrEMBL:D3H5A1,NCBI_GP:CBG27769.1;gbkey=CDS;product=hypothetical protein;protein_id=CBG27769.1;transl_table=11
+FN554767.1	EMBL	gene	12612	13418	.	-	.	ID=gene16;Name=EC042_pAA016;gbkey=Gene;locus_tag=EC042_pAA016
+FN554767.1	EMBL	CDS	12612	13418	.	-	0	ID=cds16;Name=CBG27770.1;Parent=gene16;Dbxref=GOA:D3H5A2,InterPro:IPR002104,InterPro:IPR011010,InterPro:IPR013762,InterPro:IPR016423,UniProtKB%2FTrEMBL:D3H5A2,NCBI_GP:CBG27770.1;gbkey=CDS;product=site-specific recombinase;protein_id=CBG27770.1;transl_table=11
+FN554767.1	EMBL	region	12678	13265	.	-	.	ID=id17;Note=HMMPfam hit to PF00589%2C Phage_integrase%2C score 3.9e-50;gbkey=misc_feature
+FN554767.1	EMBL	region	12873	12938	.	-	.	ID=id18;Note=Predicted helix-turn-helix motif with score 1562.000%2C SD 4.51 at aa 161-182%2C sequence TGRTEKARIWEVTDRTVRIWIG;gbkey=misc_feature
+FN554767.1	EMBL	gene	13419	13724	.	-	.	ID=gene17;Name=ccdB;gbkey=Gene;gene=ccdB;locus_tag=EC042_pAA017
+FN554767.1	EMBL	CDS	13419	13724	.	-	0	ID=cds17;Name=CBG27771.1;Parent=gene17;Dbxref=GOA:D3H5A3,InterPro:IPR002712,InterPro:IPR011067,UniProtKB%2FTrEMBL:D3H5A3,NCBI_GP:CBG27771.1;gbkey=CDS;gene=ccdB;product=post-segregation toxin %28cytotoxic protein%29;protein_id=CBG27771.1;transl_table=11
+FN554767.1	EMBL	region	13422	13724	.	-	.	ID=id19;Note=HMMPfam hit to PF01845%2C CcdB%2C score 3.9e-91;gbkey=misc_feature;gene=ccdB
+FN554767.1	EMBL	gene	13726	13944	.	-	.	ID=gene18;Name=ccdA;gbkey=Gene;gene=ccdA;locus_tag=EC042_pAA018
+FN554767.1	EMBL	CDS	13726	13944	.	-	0	ID=cds18;Name=CBG27772.1;Parent=gene18;Dbxref=InterPro:IPR009956,UniProtKB%2FTrEMBL:D3H5A4,NCBI_GP:CBG27772.1;gbkey=CDS;gene=ccdA;product=toxin addiction system antidote protein;protein_id=CBG27772.1;transl_table=11
+FN554767.1	EMBL	region	13729	13944	.	-	.	ID=id20;Note=HMMPfam hit to PF07362%2C CcdA%2C score 2e-54;gbkey=misc_feature;gene=ccdA
+FN554767.1	EMBL	gene	14466	14663	.	+	.	ID=gene19;Name=EC042_pAA019;gbkey=Gene;is_ordered=true;locus_tag=EC042_pAA019;part=1%2F2;pseudo=true
+FN554767.1	EMBL	gene	14666	14725	.	+	.	ID=gene19;Name=EC042_pAA019;gbkey=Gene;is_ordered=true;locus_tag=EC042_pAA019;part=2%2F2;pseudo=true
+FN554767.1	EMBL	CDS	14466	14663	.	+	0	ID=cds19;Parent=gene19;Dbxref=PSEUDO:CBG27773.1;gbkey=CDS;product=conserved hypothetical protein %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	CDS	14666	14725	.	+	0	ID=cds19;Parent=gene19;Dbxref=PSEUDO:CBG27773.1;gbkey=CDS;product=conserved hypothetical protein %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	gene	14725	14739	.	+	.	ID=gene20;Name=EC042_pAA020;gbkey=Gene;is_ordered=true;locus_tag=EC042_pAA020;part=1%2F2
+FN554767.1	EMBL	gene	14743	15315	.	+	.	ID=gene20;Name=EC042_pAA020;gbkey=Gene;is_ordered=true;locus_tag=EC042_pAA020;part=2%2F2
+FN554767.1	EMBL	CDS	14725	14739	.	+	0	ID=cds20;Name=CBG27774.1;Parent=gene20;Dbxref=UniProtKB%2FTrEMBL:D3H5A6,NCBI_GP:CBG27774.1;gbkey=CDS;product=conserved hypothetical protein;protein_id=CBG27774.1;transl_table=11
+FN554767.1	EMBL	CDS	14743	15315	.	+	0	ID=cds20;Name=CBG27774.1;Parent=gene20;Dbxref=UniProtKB%2FTrEMBL:D3H5A6,NCBI_GP:CBG27774.1;gbkey=CDS;product=conserved hypothetical protein;protein_id=CBG27774.1;transl_table=11
+FN554767.1	EMBL	gene	15610	16401	.	+	.	ID=gene21;Name=shf;gbkey=Gene;gene=shf;locus_tag=EC042_pAA021
+FN554767.1	EMBL	CDS	15610	16401	.	+	0	ID=cds21;Name=CBG27775.1;Parent=gene21;Dbxref=GOA:D3H5A7,InterPro:IPR002509,InterPro:IPR011330,UniProtKB%2FTrEMBL:D3H5A7,NCBI_GP:CBG27775.1;gbkey=CDS;gene=shf;product=polysaccharide deacetylase;protein_id=CBG27775.1;transl_table=11
+FN554767.1	EMBL	region	15745	16224	.	+	.	ID=id21;Note=HMMPfam hit to PF01522%2C Polysacc_deac_1%2C score 5.4e-45;gbkey=misc_feature;gene=shf
+FN554767.1	EMBL	gene	16404	17492	.	+	.	ID=gene22;Name=EC042_pAA022;gbkey=Gene;locus_tag=EC042_pAA022
+FN554767.1	EMBL	CDS	16404	17492	.	+	0	ID=cds22;Name=CBG27776.1;Parent=gene22;Dbxref=GOA:D3H5A8,InterPro:IPR001296,UniProtKB%2FTrEMBL:D3H5A8,NCBI_GP:CBG27776.1;gbkey=CDS;product=glycosyl transferase;protein_id=CBG27776.1;transl_table=11
+FN554767.1	EMBL	region	16959	17426	.	+	.	ID=id22;Note=HMMPfam hit to PF00534%2C Glycos_transf_1%2C score 8.2e-19;gbkey=misc_feature
+FN554767.1	EMBL	gene	17497	18447	.	+	.	ID=gene23;Name=virK;gbkey=Gene;gene=virK;locus_tag=EC042_pAA023
+FN554767.1	EMBL	CDS	17497	18447	.	+	0	ID=cds23;Name=CBG27777.1;Parent=gene23;Dbxref=InterPro:IPR007488,UniProtKB%2FTrEMBL:D3H5A9,NCBI_GP:CBG27777.1;gbkey=CDS;gene=virK;product=virulence protein required for expression%2Fcorrect membrane localisation of IcsA %28VirG%29;protein_id=CBG27777.1;transl_table=11
+FN554767.1	EMBL	region	17551	18405	.	+	.	ID=id23;Note=HMMPfam hit to PF04393%2C DUF535%2C score 5.7e-149;gbkey=misc_feature;gene=virK
+FN554767.1	EMBL	gene	18520	18774	.	+	.	ID=gene24;Name=EC042_pAA024;gbkey=Gene;locus_tag=EC042_pAA024;pseudo=true
+FN554767.1	EMBL	CDS	18520	18774	.	+	0	ID=cds24;Parent=gene24;Dbxref=PSEUDO:CBG27778.1;gbkey=CDS;product=transposase %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	region	18520	18771	.	+	.	ID=id24;Note=HMMPfam hit to PF05717%2C Transposase_34%2C score 4.4e-37;gbkey=misc_feature
+FN554767.1	EMBL	gene	18805	19341	.	+	.	ID=gene25;Name=EC042_pAA025;gbkey=Gene;locus_tag=EC042_pAA025;pseudo=true
+FN554767.1	EMBL	CDS	18805	19341	.	+	0	ID=cds25;Parent=gene25;Dbxref=PSEUDO:CBG27779.1;gbkey=CDS;product=conserved hypothetical protein %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	gene	19399	20148	.	-	.	ID=gene26;Name=EC042_pAA026;gbkey=Gene;locus_tag=EC042_pAA026
+FN554767.1	EMBL	CDS	19399	20148	.	-	0	ID=cds26;Name=CBG27780.1;Parent=gene26;Dbxref=GOA:D3H572,InterPro:IPR002611,InterPro:IPR003593,InterPro:IPR013690,UniProtKB%2FTrEMBL:D3H572,NCBI_GP:CBG27780.1;gbkey=CDS;product=transposase;protein_id=CBG27780.1;transl_table=11
+FN554767.1	EMBL	region	19459	19992	.	-	.	ID=id25;Note=HMMPfam hit to PF01695%2C IstB%2C score 2.8e-74;gbkey=misc_feature
+FN554767.1	EMBL	region	19810	19833	.	-	.	ID=id26;Note=PS00017 ATP%2FGTP-binding site motif A %28P-loop%29.;gbkey=misc_feature
+FN554767.1	EMBL	region	19993	20085	.	-	.	ID=id27;Note=HMMPfam hit to PF08483%2C IstB_N%2C score 4.3e-14;gbkey=misc_feature
+FN554767.1	EMBL	region	20235	21544	.	-	.	ID=id28;Note=hit to IS1203 1..1310 score: 6136 percent id: 96.49;gbkey=misc_feature
+FN554767.1	EMBL	gene	20277	21167	.	-	.	ID=gene27;Name=EC042_pAA027;gbkey=Gene;locus_tag=EC042_pAA027
+FN554767.1	EMBL	CDS	20277	21167	.	-	0	ID=cds27;Name=CBG27781.1;Parent=gene27;Dbxref=GOA:D3H573,InterPro:IPR001584,InterPro:IPR012337,UniProtKB%2FTrEMBL:D3H573,NCBI_GP:CBG27781.1;gbkey=CDS;product=transposase;protein_id=CBG27781.1;transl_table=11
+FN554767.1	EMBL	region	20319	20795	.	-	.	ID=id29;Note=HMMPfam hit to PF00665%2C rve%2C score 3.6e-45;gbkey=misc_feature
+FN554767.1	EMBL	gene	21164	21490	.	-	.	ID=gene28;Name=EC042_pAA028;gbkey=Gene;locus_tag=EC042_pAA028
+FN554767.1	EMBL	CDS	21164	21490	.	-	0	ID=cds28;Name=CBG27782.1;Parent=gene28;Dbxref=GOA:D3H574,InterPro:IPR002514,UniProtKB%2FTrEMBL:D3H574,NCBI_GP:CBG27782.1;gbkey=CDS;product=transposase;protein_id=CBG27782.1;transl_table=11
+FN554767.1	EMBL	region	21221	21481	.	-	.	ID=id30;Note=HMMPfam hit to PF01527%2C Transposase_8%2C score 8.3e-12;gbkey=misc_feature
+FN554767.1	EMBL	region	21335	21400	.	-	.	ID=id31;Note=Predicted helix-turn-helix motif with score 1328.000%2C SD 3.71 at aa 31-52%2C sequence AAICSIAPKIGCTPETLRVWVR;gbkey=misc_feature
+FN554767.1	EMBL	gene	21606	22394	.	+	.	ID=gene29;Name=EC042_pAA029;gbkey=Gene;locus_tag=EC042_pAA029;pseudo=true
+FN554767.1	EMBL	CDS	21606	22394	.	+	0	ID=cds29;Parent=gene29;gbkey=CDS;product=transposase %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	region	21891	22376	.	+	.	ID=id32;Note=HMMPfam hit to PF00665%2C rve%2C score 5.5e-31;gbkey=misc_feature
+FN554767.1	EMBL	region	22293	22322	.	+	.	ID=id33;Note=PS00019 Actinin-type actin-binding domain signature 1.;gbkey=misc_feature
+FN554767.1	EMBL	region	22380	22391	.	+	.	ID=id34;Note=PS00294 Prenyl group binding site %28CAAX box%29.;gbkey=misc_feature
+FN554767.1	EMBL	gene	22554	22994	.	-	.	ID=gene30;Name=aafB;gbkey=Gene;gene=aafB;locus_tag=EC042_pAA030
+FN554767.1	EMBL	CDS	22554	22994	.	-	0	ID=cds30;Name=CBG27784.1;Parent=gene30;Dbxref=GOA:D3H575,InterPro:IPR008394,UniProtKB%2FTrEMBL:D3H575,NCBI_GP:CBG27784.1;gbkey=CDS;gene=aafB;product=afimbrial adhesin;protein_id=CBG27784.1;transl_table=11
+FN554767.1	EMBL	region	22569	22991	.	-	.	ID=id35;Note=HMMPfam hit to PF05775%2C AfaD%2C score 8.9e-104;gbkey=misc_feature;gene=aafB
+FN554767.1	EMBL	region	22926	22994	.	-	.	ID=id36;Note=Signal peptide predicted for EC042_pAA030 by SignalP 2.0 HMM %28Signal peptide probability 1.000%29 with cleavage site probability 0.995 between residues 23 and 24;gbkey=misc_feature;gene=aafB
+FN554767.1	EMBL	gene	23011	25533	.	-	.	ID=gene31;Name=aafC;gbkey=Gene;gene=aafC;locus_tag=EC042_pAA031
+FN554767.1	EMBL	CDS	23011	25533	.	-	0	ID=cds31;Name=CBG27785.1;Parent=gene31;Dbxref=GOA:D3H576,InterPro:IPR000015,InterPro:IPR018030,UniProtKB%2FTrEMBL:D3H576,NCBI_GP:CBG27785.1;gbkey=CDS;gene=aafC;product=aggregative adherence fimbria II usher protein;protein_id=CBG27785.1;transl_table=11
+FN554767.1	EMBL	region	23062	25488	.	-	.	ID=id37;Note=HMMPfam hit to PF00577%2C Usher%2C score 0;gbkey=misc_feature;gene=aafC
+FN554767.1	EMBL	region	24589	24606	.	-	.	ID=id38;Note=PS00343 Gram-positive cocci surface proteins %27anchoring%27 hexapeptide.;gbkey=misc_feature;gene=aafC
+FN554767.1	EMBL	region	24604	24636	.	-	.	ID=id39;Note=PS01151 Fimbrial biogenesis outer membrane usher protein signature.;gbkey=misc_feature;gene=aafC
+FN554767.1	EMBL	gene	26012	26208	.	-	.	ID=gene32;Name=afaB;gbkey=Gene;gene=afaB;is_ordered=true;locus_tag=EC042_pAA032;part=1%2F3;pseudo=true
+FN554767.1	EMBL	gene	25936	26010	.	-	.	ID=gene32;Name=afaB;gbkey=Gene;gene=afaB;is_ordered=true;locus_tag=EC042_pAA032;part=2%2F3;pseudo=true
+FN554767.1	EMBL	gene	25742	25934	.	-	.	ID=gene32;Name=afaB;gbkey=Gene;gene=afaB;is_ordered=true;locus_tag=EC042_pAA032;part=3%2F3;pseudo=true
+FN554767.1	EMBL	CDS	26095	26208	.	-	0	ID=cds32;Parent=gene32;gbkey=CDS;gene=afaB;product=fimbrial chaperone protein %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	CDS	26012	26095	.	-	0	ID=cds32;Parent=gene32;gbkey=CDS;gene=afaB;product=fimbrial chaperone protein %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	CDS	25936	26010	.	-	0	ID=cds32;Parent=gene32;gbkey=CDS;gene=afaB;product=fimbrial chaperone protein %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	CDS	25776	25934	.	-	0	ID=cds32;Parent=gene32;gbkey=CDS;gene=afaB;product=fimbrial chaperone protein %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	CDS	25742	25777	.	-	0	ID=cds32;Parent=gene32;gbkey=CDS;gene=afaB;product=fimbrial chaperone protein %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	region	25776	25820	.	-	.	ID=id40;Note=HMMPfam hit to PF02753%2C Pili_assembly_C%2C score 0.00013;gbkey=misc_feature;gene=afaB;part=1%2F2
+FN554767.1	EMBL	region	25742	25777	.	-	.	ID=id40;Note=HMMPfam hit to PF02753%2C Pili_assembly_C%2C score 0.00013;gbkey=misc_feature;gene=afaB;part=2%2F2
+FN554767.1	EMBL	region	26098	26199	.	-	.	ID=id41;Note=HMMPfam hit to PF00345%2C Pili_assembly_N%2C score 1e-13;gbkey=misc_feature;gene=afaB;part=1%2F3
+FN554767.1	EMBL	region	25937	26098	.	-	.	ID=id41;Note=HMMPfam hit to PF00345%2C Pili_assembly_N%2C score 1e-13;gbkey=misc_feature;gene=afaB;part=2%2F3
+FN554767.1	EMBL	region	25830	25937	.	-	.	ID=id41;Note=HMMPfam hit to PF00345%2C Pili_assembly_N%2C score 1e-13;gbkey=misc_feature;gene=afaB;part=3%2F3
+FN554767.1	EMBL	region	27025	27792	.	+	.	ID=id42;Note=hit to IS1A 1..768 score: 3804 percent id: 99.48%3B%7EIS1A;gbkey=misc_feature
+FN554767.1	EMBL	gene	27080	27355	.	+	.	ID=gene33;Name=EC042_pAA033;gbkey=Gene;locus_tag=EC042_pAA033
+FN554767.1	EMBL	CDS	27080	27355	.	+	0	ID=cds33;Name=CBG27787.1;Parent=gene33;Dbxref=GOA:D3GV35,InterPro:IPR003220,InterPro:IPR012287,InterPro:IPR024431,UniProtKB%2FTrEMBL:D3GV35,NCBI_GP:CBG27787.1;gbkey=CDS;product=transposase;protein_id=CBG27787.1;transl_table=11
+FN554767.1	EMBL	region	27080	27343	.	+	.	ID=id43;Note=HMMPfam hit to PF03811%2C Ins_element1%2C score 7.7e-68;gbkey=misc_feature
+FN554767.1	EMBL	region	27125	27148	.	+	.	ID=id44;Note=PS00017 ATP%2FGTP-binding site motif A %28P-loop%29.;gbkey=misc_feature
+FN554767.1	EMBL	region	27269	27334	.	+	.	ID=id45;Note=Predicted helix-turn-helix motif with score 1364.000%2C SD 3.83 at aa 64-85%2C sequence VGCRATARIMGVGLNTILRHLK;gbkey=misc_feature
+FN554767.1	EMBL	gene	27400	27777	.	+	.	ID=gene34;Name=EC042_pAA034;gbkey=Gene;locus_tag=EC042_pAA034
+FN554767.1	EMBL	CDS	27400	27777	.	+	0	ID=cds34;Name=CBG27788.1;Parent=gene34;Dbxref=GOA:D3H233,InterPro:IPR005063,UniProtKB%2FTrEMBL:D3H233,NCBI_GP:CBG27788.1;gbkey=CDS;product=transposase;protein_id=CBG27788.1;transl_table=11
+FN554767.1	EMBL	region	27400	27774	.	+	.	ID=id46;Note=HMMPfam hit to PF03400%2C Transposase_27%2C score 1.1e-103;gbkey=misc_feature
+FN554767.1	EMBL	gene	28073	31960	.	+	.	ID=gene35;Name=pet;gbkey=Gene;gene=pet;locus_tag=EC042_pAA035
+FN554767.1	EMBL	CDS	28073	31960	.	+	0	ID=cds35;Name=CBG27789.1;Parent=gene35;Dbxref=GOA:O68900,InterPro:IPR000710,InterPro:IPR005546,InterPro:IPR006315,InterPro:IPR011050,InterPro:IPR012332,UniProtKB%2FSwiss-Prot:O68900,NCBI_GP:CBG27789.1;gbkey=CDS;gene=pet;product=serine protease %28plasmid-encoded toxin Pet%29;protein_id=CBG27789.1;transl_table=11
+FN554767.1	EMBL	region	28073	28141	.	+	.	ID=id47;Note=Signal peptide predicted for EC042_pAA035 by SignalP 2.0 HMM %28Signal peptide probability 0.856%29 with cleavage site probability 0.396 between residues 23 and 24;gbkey=misc_feature;gene=pet
+FN554767.1	EMBL	region	28172	28231	.	+	.	ID=id48;Note=1 probable transmembrane helix predicted for EC042_pAA035 by TMHMM2.0 at aa 34-53;gbkey=misc_feature;gene=pet
+FN554767.1	EMBL	region	28208	30259	.	+	.	ID=id49;Note=HMMPfam hit to PF02395%2C Peptidase_S6%2C score 0;gbkey=misc_feature;gene=pet
+FN554767.1	EMBL	region	28916	28939	.	+	.	ID=id50;Note=PS00017 ATP%2FGTP-binding site motif A %28P-loop%29.;gbkey=misc_feature;gene=pet
+FN554767.1	EMBL	region	31160	31930	.	+	.	ID=id51;Note=HMMPfam hit to PF03797%2C Autotransporter%2C score 2.4e-43;gbkey=misc_feature;gene=pet
+FN554767.1	EMBL	repeat_region	32218	33243	.	-	.	ID=id52;Note=hit to IS1414 288..1314 score: 5048 percent id: 99.12%3B%7EIS911 element;gbkey=repeat_region
+FN554767.1	EMBL	gene	34551	34682	.	-	.	ID=gene36;Name=EC042_pAA040;gbkey=Gene;is_ordered=true;locus_tag=EC042_pAA040;part=1%2F3;pseudo=true
+FN554767.1	EMBL	gene	32889	33239	.	-	.	ID=gene36;Name=EC042_pAA040;gbkey=Gene;is_ordered=true;locus_tag=EC042_pAA040;part=2%2F3;pseudo=true
+FN554767.1	EMBL	gene	32251	32886	.	-	.	ID=gene36;Name=EC042_pAA040;gbkey=Gene;is_ordered=true;locus_tag=EC042_pAA040;part=3%2F3;pseudo=true
+FN554767.1	EMBL	CDS	34551	34682	.	-	0	ID=cds36;Parent=gene36;Dbxref=PSEUDO:CBG27790.1;gbkey=CDS;product=transposase %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	CDS	32889	33239	.	-	0	ID=cds36;Parent=gene36;Dbxref=PSEUDO:CBG27790.1;gbkey=CDS;product=transposase %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	CDS	32251	32886	.	-	0	ID=cds36;Parent=gene36;Dbxref=PSEUDO:CBG27790.1;gbkey=CDS;product=transposase %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	region	32323	32862	.	-	.	ID=id53;Note=HMMPfam hit to PF00872%2C Transposase_mut%2C score 1.9e-66;gbkey=misc_feature
+FN554767.1	EMBL	region	32692	32766	.	-	.	ID=id54;Note=PS01007 Transposases%2C Mutator family%2C signature.;gbkey=misc_feature
+FN554767.1	EMBL	region	32889	33239	.	-	.	ID=id55;Note=HMMPfam hit to PF00872%2C Transposase_mut%2C score 6.3e-40;gbkey=misc_feature
+FN554767.1	EMBL	region	33242	34551	.	+	.	ID=id56;Note=IS629;gbkey=misc_feature
+FN554767.1	EMBL	gene	33296	33622	.	+	.	ID=gene37;Name=EC042_pAA038;gbkey=Gene;locus_tag=EC042_pAA038
+FN554767.1	EMBL	CDS	33296	33622	.	+	0	ID=cds37;Name=CBG27791.1;Parent=gene37;Dbxref=GOA:D3H574,InterPro:IPR002514,UniProtKB%2FTrEMBL:D3H574,NCBI_GP:CBG27791.1;gbkey=CDS;product=transposase;protein_id=CBG27791.1;transl_table=11
+FN554767.1	EMBL	region	33305	33565	.	+	.	ID=id57;Note=HMMPfam hit to PF01527%2C Transposase_8%2C score 8.3e-12;gbkey=misc_feature
+FN554767.1	EMBL	region	33386	33451	.	+	.	ID=id58;Note=Predicted helix-turn-helix motif with score 1328.000%2C SD 3.71 at aa 31-52%2C sequence AAICSIAPKIGCTPETLRVWVR;gbkey=misc_feature
+FN554767.1	EMBL	gene	33619	34509	.	+	.	ID=gene38;Name=EC042_pAA039;gbkey=Gene;locus_tag=EC042_pAA039
+FN554767.1	EMBL	CDS	33619	34509	.	+	0	ID=cds38;Name=CBG27792.1;Parent=gene38;Dbxref=GOA:D3H582,InterPro:IPR001584,InterPro:IPR012337,UniProtKB%2FTrEMBL:D3H582,NCBI_GP:CBG27792.1;gbkey=CDS;product=transposase;protein_id=CBG27792.1;transl_table=11
+FN554767.1	EMBL	region	33991	34467	.	+	.	ID=id59;Note=HMMPfam hit to PF00665%2C rve%2C score 3.6e-45;gbkey=misc_feature
+FN554767.1	EMBL	repeat_region	34535	34753	.	-	.	ID=id60;Note=hit to IS1414 2..219 score: 1008 percent id: 95.89%3B%7EIS911 element;gbkey=repeat_region
+FN554767.1	EMBL	gene	34766	35074	.	-	.	ID=gene39;Name=EC042_pAA041;gbkey=Gene;locus_tag=EC042_pAA041
+FN554767.1	EMBL	CDS	34766	35074	.	-	0	ID=cds39;Name=CBG27793.1;Parent=gene39;Dbxref=UniProtKB%2FTrEMBL:D3H583,NCBI_GP:CBG27793.1;gbkey=CDS;product=conserved hypothetical protein;protein_id=CBG27793.1;transl_table=11
+FN554767.1	EMBL	gene	35161	35838	.	-	.	ID=gene40;Name=EC042_pAA042;gbkey=Gene;locus_tag=EC042_pAA042
+FN554767.1	EMBL	CDS	35161	35838	.	-	0	ID=cds40;Name=CBG27794.1;Parent=gene40;Dbxref=InterPro:IPR002586,UniProtKB%2FTrEMBL:D3H584,NCBI_GP:CBG27794.1;gbkey=CDS;product=conserved hypothetical protein;protein_id=CBG27794.1;transl_table=11
+FN554767.1	EMBL	repeat_region	35963	36976	.	-	.	ID=id61;Note=hit to IS911 241..1250 score: 4550 percent id: 94.89%3B%7EIS911 element;gbkey=repeat_region
+FN554767.1	EMBL	gene	37437	37583	.	-	.	ID=gene41;Name=EC042_pAA043;gbkey=Gene;is_ordered=true;locus_tag=EC042_pAA043;part=1%2F2;pseudo=true
+FN554767.1	EMBL	gene	35993	36877	.	-	.	ID=gene41;Name=EC042_pAA043;gbkey=Gene;is_ordered=true;locus_tag=EC042_pAA043;part=2%2F2;pseudo=true
+FN554767.1	EMBL	CDS	37437	37583	.	-	0	ID=cds41;Parent=gene41;Dbxref=PSEUDO:CBG27795.1;gbkey=CDS;product=transposase %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	CDS	35993	36877	.	-	0	ID=cds41;Parent=gene41;Dbxref=PSEUDO:CBG27795.1;gbkey=CDS;product=transposase %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	region	36014	36496	.	-	.	ID=id62;Note=HMMPfam hit to PF00665%2C rve%2C score 1.4e-42;gbkey=misc_feature
+FN554767.1	EMBL	region	36997	37375	.	-	.	ID=id63;Note=IS30;gbkey=misc_feature
+FN554767.1	EMBL	gene	37019	37372	.	-	.	ID=gene42;Name=EC042_pAA044;gbkey=Gene;locus_tag=EC042_pAA044;pseudo=true
+FN554767.1	EMBL	CDS	37019	37372	.	-	0	ID=cds42;Parent=gene42;gbkey=CDS;product=transposase %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	repeat_region	37433	37769	.	-	.	ID=id64;Note=hit to IS911 1..337 score: 1676 percent id: 99.70%3B%7EIS911 element;gbkey=repeat_region
+FN554767.1	EMBL	region	37446	37577	.	-	.	ID=id65;Note=HMMPfam hit to PF01527%2C Transposase_8%2C score 5.8e-08;gbkey=misc_feature
+FN554767.1	EMBL	gene	37873	38088	.	+	.	ID=gene43;Name=EC042_pAA045;gbkey=Gene;locus_tag=EC042_pAA045;pseudo=true
+FN554767.1	EMBL	CDS	37873	38088	.	+	0	ID=cds43;Parent=gene43;Dbxref=PSEUDO:CBG27797.1;gbkey=CDS;product=transposase %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	region	37912	38085	.	+	.	ID=id66;Note=HMMPfam hit to PF00665%2C rve%2C score 2.9e-05;gbkey=misc_feature
+FN554767.1	EMBL	gene	38499	39248	.	+	.	ID=gene44;Name=aafD;gbkey=Gene;gene=aafD;locus_tag=EC042_pAA046
+FN554767.1	EMBL	CDS	38499	39248	.	+	0	ID=cds44;Name=CBG27798.1;Parent=gene44;Dbxref=GOA:D3H537,InterPro:IPR001829,InterPro:IPR008962,InterPro:IPR016147,InterPro:IPR016148,InterPro:IPR018046,UniProtKB%2FTrEMBL:D3H537,NCBI_GP:CBG27798.1;gbkey=CDS;gene=aafD;product=chaperone protein;protein_id=CBG27798.1;transl_table=11
+FN554767.1	EMBL	region	38499	38564	.	+	.	ID=id67;Note=Signal peptide predicted for EC042_pAA046 by SignalP 2.0 HMM %28Signal peptide probability 1.000%29 with cleavage site probability 0.999 between residues 22 and 23;gbkey=misc_feature;gene=aafD
+FN554767.1	EMBL	region	38586	38978	.	+	.	ID=id68;Note=HMMPfam hit to PF00345%2C Pili_assembly_N%2C score 5.8e-62;gbkey=misc_feature;gene=aafD
+FN554767.1	EMBL	region	38802	38855	.	+	.	ID=id69;Note=PS00635 Gram-negative pili assembly chaperone signature.;gbkey=misc_feature;gene=aafD
+FN554767.1	EMBL	region	38988	39227	.	+	.	ID=id70;Note=HMMPfam hit to PF02753%2C Pili_assembly_C%2C score 4.9e-21;gbkey=misc_feature;gene=aafD
+FN554767.1	EMBL	gene	39399	39563	.	+	.	ID=gene45;Name=EC042_pAA047;gbkey=Gene;locus_tag=EC042_pAA047
+FN554767.1	EMBL	CDS	39399	39563	.	+	0	ID=cds45;Name=CBG27799.1;Parent=gene45;Note=No significant database matches;Dbxref=UniProtKB%2FTrEMBL:D3H538,NCBI_GP:CBG27799.1;gbkey=CDS;product=hypothetical protein;protein_id=CBG27799.1;transl_table=11
+FN554767.1	EMBL	gene	39652	40134	.	+	.	ID=gene46;Name=aafA;gbkey=Gene;gene=aafA;locus_tag=EC042_pAA048
+FN554767.1	EMBL	CDS	39652	40134	.	+	0	ID=cds46;Name=CBG27800.1;Parent=gene46;Dbxref=UniProtKB%2FTrEMBL:D3H539,NCBI_GP:CBG27800.1;gbkey=CDS;gene=aafA;product=major fimbrial subunit of aggregative adherence fimbria II;protein_id=CBG27800.1;transl_table=11
+FN554767.1	EMBL	region	39652	39726	.	+	.	ID=id71;Note=Signal peptide predicted for EC042_pAA048 by SignalP 2.0 HMM %28Signal peptide probability 1.000%29 with cleavage site probability 0.887 between residues 25 and 26;gbkey=misc_feature;gene=aafA
+FN554767.1	EMBL	region	40187	40256	.	-	.	ID=id72;Note=hit to IS1414 1054..1123 score: 314 percent id: 94.29;gbkey=misc_feature
+FN554767.1	EMBL	gene	40188	40253	.	-	.	ID=gene47;Name=EC042_pAA049;gbkey=Gene;locus_tag=EC042_pAA049;pseudo=true
+FN554767.1	EMBL	CDS	40188	40253	.	-	0	ID=cds47;Parent=gene47;gbkey=CDS;product=transposase %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	repeat_region	40254	41021	.	-	.	ID=id73;Note=hit to IS1F 1..768 score: 3183 percent id: 90.49%3B%7EIS911 element;gbkey=repeat_region
+FN554767.1	EMBL	gene	40269	40646	.	-	.	ID=gene48;Name=EC042_pAA050;gbkey=Gene;locus_tag=EC042_pAA050
+FN554767.1	EMBL	CDS	40269	40646	.	-	0	ID=cds48;Name=CBG27802.1;Parent=gene48;Dbxref=GOA:D3H233,InterPro:IPR005063,UniProtKB%2FTrEMBL:D3H233,NCBI_GP:CBG27802.1;gbkey=CDS;product=transposase;protein_id=CBG27802.1;transl_table=11
+FN554767.1	EMBL	region	40272	40646	.	-	.	ID=id74;Note=HMMPfam hit to PF03400%2C Transposase_27%2C score 3.1e-112;gbkey=misc_feature
+FN554767.1	EMBL	gene	40691	40966	.	-	.	ID=gene49;Name=EC042_pAA051;gbkey=Gene;locus_tag=EC042_pAA051
+FN554767.1	EMBL	CDS	40691	40966	.	-	0	ID=cds49;Name=CBG27803.1;Parent=gene49;Dbxref=GOA:D3GV35,InterPro:IPR003220,InterPro:IPR012287,InterPro:IPR024431,UniProtKB%2FTrEMBL:D3GV35,NCBI_GP:CBG27803.1;gbkey=CDS;product=transposase;protein_id=CBG27803.1;transl_table=11
+FN554767.1	EMBL	region	40703	40966	.	-	.	ID=id75;Note=HMMPfam hit to PF03811%2C Ins_element1%2C score 7.7e-68;gbkey=misc_feature
+FN554767.1	EMBL	region	40712	40777	.	-	.	ID=id76;Note=Predicted helix-turn-helix motif with score 1364.000%2C SD 3.83 at aa 64-85%2C sequence VGCRATARIMGVGLNTILRHLK;gbkey=misc_feature
+FN554767.1	EMBL	region	40898	40921	.	-	.	ID=id77;Note=PS00017 ATP%2FGTP-binding site motif A %28P-loop%29.;gbkey=misc_feature
+FN554767.1	EMBL	gene	41080	41877	.	-	.	ID=gene50;Name=aggR;gbkey=Gene;gene=aggR;locus_tag=EC042_pAA052
+FN554767.1	EMBL	CDS	41080	41877	.	-	0	ID=cds50;Name=CBG27804.1;Parent=gene50;Dbxref=GOA:D3H542,InterPro:IPR009057,InterPro:IPR012287,InterPro:IPR018060,InterPro:IPR018062,InterPro:IPR020449,UniProtKB%2FTrEMBL:D3H542,NCBI_GP:CBG27804.1;gbkey=CDS;gene=aggR;product=transcriptional activator;protein_id=CBG27804.1;transl_table=11
+FN554767.1	EMBL	region	41098	41232	.	-	.	ID=id78;Note=HMMPfam hit to PF00165%2C HTH_AraC%2C score 1.7e-12;gbkey=misc_feature;gene=aggR
+FN554767.1	EMBL	region	41113	41241	.	-	.	ID=id79;Note=PS00041 Bacterial regulatory proteins%2C araC family signature.;gbkey=misc_feature;gene=aggR
+FN554767.1	EMBL	region	41248	41385	.	-	.	ID=id80;Note=HMMPfam hit to PF00165%2C HTH_AraC%2C score 0.00025;gbkey=misc_feature;gene=aggR
+FN554767.1	EMBL	region	41281	41346	.	-	.	ID=id81;Note=Predicted helix-turn-helix motif with score 1775.000%2C SD 5.23 at aa 178-199%2C sequence WTLAIIADEFNVSEITIRKRLE;gbkey=misc_feature;gene=aggR
+FN554767.1	EMBL	gene	42099	42395	.	-	.	ID=gene51;Name=EC042_pAA053;gbkey=Gene;locus_tag=EC042_pAA053;pseudo=true
+FN554767.1	EMBL	CDS	42099	42395	.	-	0	ID=cds51;Parent=gene51;Dbxref=PSEUDO:CBG27805.1;gbkey=CDS;product=transposase %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	gene	42508	42576	.	+	.	ID=gene52;Name=EC042_pAA054;gbkey=Gene;locus_tag=EC042_pAA054;pseudo=true
+FN554767.1	EMBL	CDS	42508	42576	.	+	0	ID=cds52;Parent=gene52;gbkey=CDS;product=transposase %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	region	42508	42569	.	+	.	ID=id82;Note=hit to IS3E 1120..1181 score: 256 percent id: 90.32;gbkey=misc_feature
+FN554767.1	EMBL	gene	42684	43034	.	-	.	ID=gene53;Name=aap;gbkey=Gene;gene=aap;locus_tag=EC042_pAA055
+FN554767.1	EMBL	CDS	42684	43034	.	-	0	ID=cds53;Name=CBG27807.1;Parent=gene53;Dbxref=UniProtKB%2FTrEMBL:D3H544,NCBI_GP:CBG27807.1;gbkey=CDS;gene=aap;product=dispersin;protein_id=CBG27807.1;transl_table=11
+FN554767.1	EMBL	region	42972	43034	.	-	.	ID=id83;Note=Signal peptide predicted for EC042_pAA055 by SignalP 2.0 HMM %28Signal peptide probability 1.000%29 with cleavage site probability 0.995 between residues 21 and 22;gbkey=misc_feature;gene=aap
+FN554767.1	EMBL	gene	43326	43511	.	-	.	ID=gene54;Name=EC042_pAA056;gbkey=Gene;locus_tag=EC042_pAA056
+FN554767.1	EMBL	CDS	43326	43511	.	-	0	ID=cds54;Name=CBG27808.1;Parent=gene54;Note=no significant database matches;Dbxref=UniProtKB%2FTrEMBL:D3H545,NCBI_GP:CBG27808.1;gbkey=CDS;product=hypothetical protein;protein_id=CBG27808.1;transl_table=11
+FN554767.1	EMBL	gene	44069	44629	.	-	.	ID=gene55;Name=EC042_pAA057;gbkey=Gene;is_ordered=true;locus_tag=EC042_pAA057;part=1%2F2;pseudo=true
+FN554767.1	EMBL	gene	43600	44067	.	-	.	ID=gene55;Name=EC042_pAA057;gbkey=Gene;is_ordered=true;locus_tag=EC042_pAA057;part=2%2F2;pseudo=true
+FN554767.1	EMBL	CDS	44069	44629	.	-	0	ID=cds55;Parent=gene55;Dbxref=PSEUDO:CBG27809.1;gbkey=CDS;product=transposase %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	CDS	43600	44067	.	-	0	ID=cds55;Parent=gene55;Dbxref=PSEUDO:CBG27809.1;gbkey=CDS;product=transposase %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	region	44069	44155	.	-	.	ID=id84;Note=HMMPfam hit to PF00665%2C rve%2C score 1.6e-21;gbkey=misc_feature;part=1%2F2
+FN554767.1	EMBL	region	43645	44067	.	-	.	ID=id84;Note=HMMPfam hit to PF00665%2C rve%2C score 1.6e-21;gbkey=misc_feature;part=2%2F2
+FN554767.1	EMBL	region	44498	44563	.	-	.	ID=id85;Note=Predicted helix-turn-helix motif with score 1094.000%2C SD 2.91 at aa 23-44%2C sequence SNVSKACKIMGVSRDTFYRYRE;gbkey=misc_feature
+FN554767.1	EMBL	gene	45160	45615	.	-	.	ID=gene56;Name=EC042_pAA058;gbkey=Gene;is_ordered=true;locus_tag=EC042_pAA058;part=1%2F2;pseudo=true
+FN554767.1	EMBL	gene	44758	45156	.	-	.	ID=gene56;Name=EC042_pAA058;gbkey=Gene;is_ordered=true;locus_tag=EC042_pAA058;part=2%2F2;pseudo=true
+FN554767.1	EMBL	CDS	45160	45615	.	-	0	ID=cds56;Parent=gene56;Dbxref=PSEUDO:CBG27810.1;gbkey=CDS;product=transposase %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	CDS	44758	45156	.	-	0	ID=cds56;Parent=gene56;Dbxref=PSEUDO:CBG27810.1;gbkey=CDS;product=transposase %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	region	45160	45276	.	-	.	ID=id86;Note=HMMPfam hit to PF00665%2C rve%2C score 3.1e-23;gbkey=misc_feature;part=1%2F2
+FN554767.1	EMBL	region	44779	45156	.	-	.	ID=id86;Note=HMMPfam hit to PF00665%2C rve%2C score 3.1e-23;gbkey=misc_feature;part=2%2F2
+FN554767.1	EMBL	gene	45697	46008	.	-	.	ID=gene57;Name=EC042_pAA059;gbkey=Gene;locus_tag=EC042_pAA059
+FN554767.1	EMBL	CDS	45697	46008	.	-	0	ID=cds57;Name=CBG27811.1;Parent=gene57;Dbxref=GOA:D3H548,InterPro:IPR002514,InterPro:IPR009057,UniProtKB%2FTrEMBL:D3H548,NCBI_GP:CBG27811.1;gbkey=CDS;product=transposase;protein_id=CBG27811.1;transl_table=11
+FN554767.1	EMBL	region	45715	45915	.	-	.	ID=id87;Note=HMMPfam hit to PF01527%2C Transposase_8%2C score 3.8e-17;gbkey=misc_feature
+FN554767.1	EMBL	gene	46234	46437	.	+	.	ID=gene58;Name=EC042_pAA060;gbkey=Gene;locus_tag=EC042_pAA060
+FN554767.1	EMBL	CDS	46234	46437	.	+	0	ID=cds58;Name=CBG27812.1;Parent=gene58;Dbxref=UniProtKB%2FTrEMBL:D3H549,NCBI_GP:CBG27812.1;gbkey=CDS;product=conserved hypothetical protein;protein_id=CBG27812.1;transl_table=11
+FN554767.1	EMBL	gene	46513	46743	.	-	.	ID=gene59;Name=EC042_pAA061;gbkey=Gene;locus_tag=EC042_pAA061
+FN554767.1	EMBL	CDS	46513	46743	.	-	0	ID=cds59;Name=CBG27813.1;Parent=gene59;Dbxref=UniProtKB%2FTrEMBL:D3H550,NCBI_GP:CBG27813.1;gbkey=CDS;product=conserved hypothetical protein;protein_id=CBG27813.1;transl_table=11
+FN554767.1	EMBL	gene	46839	48410	.	-	.	ID=gene60;Name=EC042_pAA062;gbkey=Gene;locus_tag=EC042_pAA062
+FN554767.1	EMBL	CDS	46839	48410	.	-	0	ID=cds60;Name=CBG27814.1;Parent=gene60;Dbxref=InterPro:IPR004291,InterPro:IPR024463,InterPro:IPR024474,UniProtKB%2FTrEMBL:D3H551,NCBI_GP:CBG27814.1;gbkey=CDS;product=transposase;protein_id=CBG27814.1;transl_table=11
+FN554767.1	EMBL	region	47403	47999	.	-	.	ID=id88;Note=HMMPfam hit to PF03050%2C Transposase_25%2C score 4.1e-129;gbkey=misc_feature
+FN554767.1	EMBL	gene	48430	48777	.	-	.	ID=gene61;Name=EC042_pAA063;gbkey=Gene;locus_tag=EC042_pAA063
+FN554767.1	EMBL	CDS	48430	48777	.	-	0	ID=cds61;Name=CBG27815.1;Parent=gene61;Dbxref=InterPro:IPR008878,UniProtKB%2FTrEMBL:D3H552,NCBI_GP:CBG27815.1;gbkey=CDS;product=transposase;protein_id=CBG27815.1;transl_table=11
+FN554767.1	EMBL	region	48436	48762	.	-	.	ID=id89;Note=HMMPfam hit to PF05717%2C Transposase_34%2C score 1.1e-69;gbkey=misc_feature
+FN554767.1	EMBL	gene	48777	49454	.	-	.	ID=gene62;Name=EC042_pAA064;gbkey=Gene;locus_tag=EC042_pAA064
+FN554767.1	EMBL	CDS	48777	49454	.	-	0	ID=cds62;Name=CBG27816.1;Parent=gene62;Dbxref=GOA:D3H553,InterPro:IPR002514,UniProtKB%2FTrEMBL:D3H553,NCBI_GP:CBG27816.1;gbkey=CDS;product=transposase;protein_id=CBG27816.1;transl_table=11
+FN554767.1	EMBL	region	48894	49148	.	-	.	ID=id90;Note=HMMPfam hit to PF01527%2C Transposase_8%2C score 2e-22;gbkey=misc_feature
+FN554767.1	EMBL	region	49305	49370	.	-	.	ID=id91;Note=Predicted helix-turn-helix motif with score 1051.000%2C SD 2.77 at aa 29-50%2C sequence LPRVVAGRRLGVPKSTVCSMFV;gbkey=misc_feature
+FN554767.1	EMBL	region	49506	49718	.	-	.	ID=id92;Note=hit to IS1414 1..213 score: 1038 percent id: 98.59;gbkey=misc_feature
+FN554767.1	EMBL	gene	49509	49646	.	-	.	ID=gene63;Name=EC042_pAA065;gbkey=Gene;locus_tag=EC042_pAA065;pseudo=true
+FN554767.1	EMBL	CDS	49509	49646	.	-	0	ID=cds63;Parent=gene63;gbkey=CDS;product=transposase %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	gene	50530	51090	.	-	.	ID=gene64;Name=finO;gbkey=Gene;gene=finO;locus_tag=EC042_pAA066
+FN554767.1	EMBL	CDS	50530	51090	.	-	0	ID=cds64;Name=CBG27818.1;Parent=gene64;Dbxref=InterPro:IPR016103,InterPro:IPR021065,UniProtKB%2FTrEMBL:D3H554,NCBI_GP:CBG27818.1;gbkey=CDS;gene=finO;product=fertility inhibition protein %28conjugal transfer repressor%29;protein_id=CBG27818.1;transl_table=11
+FN554767.1	EMBL	region	50533	51024	.	-	.	ID=id93;Note=HMMPfam hit to PF05286%2C FINO%2C score 3.4e-125;gbkey=misc_feature;gene=finO
+FN554767.1	EMBL	gene	51145	51891	.	-	.	ID=gene65;Name=traX;gbkey=Gene;gene=traX;locus_tag=EC042_pAA067
+FN554767.1	EMBL	CDS	51145	51891	.	-	0	ID=cds65;Name=CBG27819.1;Parent=gene65;Dbxref=InterPro:IPR008875,InterPro:IPR014125,UniProtKB%2FTrEMBL:D3H555,NCBI_GP:CBG27819.1;gbkey=CDS;gene=traX;product=conjugative transfer protein;protein_id=CBG27819.1;transl_table=11
+FN554767.1	EMBL	region	51520	51588	.	-	.	ID=id94;Note=5 probable transmembrane helices predicted for EC042_pAA067 by TMHMM2.0 at aa 102-124%2C 144-166%2C 179-196%2C200-219 and 226-247;gbkey=misc_feature;gene=traX;part=1%2F5
+FN554767.1	EMBL	region	51394	51462	.	-	.	ID=id94;Note=5 probable transmembrane helices predicted for EC042_pAA067 by TMHMM2.0 at aa 102-124%2C 144-166%2C 179-196%2C200-219 and 226-247;gbkey=misc_feature;gene=traX;part=2%2F5
+FN554767.1	EMBL	region	51304	51357	.	-	.	ID=id94;Note=5 probable transmembrane helices predicted for EC042_pAA067 by TMHMM2.0 at aa 102-124%2C 144-166%2C 179-196%2C200-219 and 226-247;gbkey=misc_feature;gene=traX;part=3%2F5
+FN554767.1	EMBL	region	51235	51294	.	-	.	ID=id94;Note=5 probable transmembrane helices predicted for EC042_pAA067 by TMHMM2.0 at aa 102-124%2C 144-166%2C 179-196%2C200-219 and 226-247;gbkey=misc_feature;gene=traX;part=4%2F5
+FN554767.1	EMBL	region	51151	51216	.	-	.	ID=id94;Note=5 probable transmembrane helices predicted for EC042_pAA067 by TMHMM2.0 at aa 102-124%2C 144-166%2C 179-196%2C200-219 and 226-247;gbkey=misc_feature;gene=traX;part=5%2F5
+FN554767.1	EMBL	region	51424	51810	.	-	.	ID=id95;Note=HMMPfam hit to PF05857%2C TraX%2C score 1.3e-82;gbkey=misc_feature;gene=traX
+FN554767.1	EMBL	gene	51911	57181	.	-	.	ID=gene66;Name=traI;gbkey=Gene;gene=traI;locus_tag=EC042_pAA068
+FN554767.1	EMBL	CDS	51911	57181	.	-	0	ID=cds66;Name=CBG27820.1;Parent=gene66;Dbxref=GOA:D3H556,InterPro:IPR009767,InterPro:IPR014059,InterPro:IPR014129,InterPro:IPR014862,UniProtKB%2FTrEMBL:D3H556,NCBI_GP:CBG27820.1;gbkey=CDS;gene=traI;product=DNA helicase I;protein_id=CBG27820.1;transl_table=11
+FN554767.1	EMBL	region	52502	52882	.	-	.	ID=id96;Note=HMMPfam hit to PF07057%2C TraI%2C score 4.1e-100;gbkey=misc_feature;gene=traI
+FN554767.1	EMBL	region	54185	54208	.	-	.	ID=id97;Note=PS00017 ATP%2FGTP-binding site motif A %28P-loop%29.;gbkey=misc_feature;gene=traI
+FN554767.1	EMBL	region	56318	57166	.	-	.	ID=id98;Note=HMMPfam hit to PF08751%2C TrwC%2C score 3.6e-139;gbkey=misc_feature;gene=traI
+FN554767.1	EMBL	gene	57181	59532	.	-	.	ID=gene67;Name=traD;gbkey=Gene;gene=traD;locus_tag=EC042_pAA069
+FN554767.1	EMBL	CDS	57181	59532	.	-	0	ID=cds67;Name=CBG27821.1;Parent=gene67;Dbxref=GOA:D3H557,InterPro:IPR014128,InterPro:IPR019476,InterPro:IPR022585,UniProtKB%2FTrEMBL:D3H557,NCBI_GP:CBG27821.1;gbkey=CDS;gene=traD;product=conjugative transfer protein;protein_id=CBG27821.1;transl_table=11
+FN554767.1	EMBL	repeat_region	57481	57678	.	+	.	ID=id99;Note=%28ctgttgtgg%2922;gbkey=repeat_region;gene=traD
+FN554767.1	EMBL	region	58117	58278	.	-	.	ID=id100;Note=HMMPfam hit to PF02534%2C TraG%2C score 0.00062;gbkey=misc_feature;gene=traD
+FN554767.1	EMBL	region	58936	58959	.	-	.	ID=id101;Note=PS00017 ATP%2FGTP-binding site motif A %28P-loop%29.;gbkey=misc_feature;gene=traD
+FN554767.1	EMBL	region	59392	59460	.	-	.	ID=id102;Note=2 probable transmembrane helices predicted for EC042_pAA069 by TMHMM2.0 at aa 25-47 and 108-130;gbkey=misc_feature;gene=traD;part=1%2F2
+FN554767.1	EMBL	region	59143	59211	.	-	.	ID=id102;Note=2 probable transmembrane helices predicted for EC042_pAA069 by TMHMM2.0 at aa 25-47 and 108-130;gbkey=misc_feature;gene=traD;part=2%2F2
+FN554767.1	EMBL	gene	59583	60320	.	-	.	ID=gene68;Name=EC042_pAA070;gbkey=Gene;locus_tag=EC042_pAA070
+FN554767.1	EMBL	CDS	59583	60320	.	-	0	ID=cds68;Name=CBG27822.1;Parent=gene68;Dbxref=UniProtKB%2FTrEMBL:D3H558,NCBI_GP:CBG27822.1;gbkey=CDS;product=putative conjugative transfer protein;protein_id=CBG27822.1;transl_table=11
+FN554767.1	EMBL	region	60114	60182	.	-	.	ID=id103;Note=1 probable transmembrane helix predicted for EC042_pAA070 by TMHMM2.0 at aa 47-69;gbkey=misc_feature
+FN554767.1	EMBL	gene	60523	61299	.	-	.	ID=gene69;Name=traT;gbkey=Gene;gene=traT;locus_tag=EC042_pAA071
+FN554767.1	EMBL	CDS	60523	61299	.	-	0	ID=cds69;Name=CBG27823.1;Parent=gene69;Dbxref=GOA:D3H559,InterPro:IPR008874,UniProtKB%2FTrEMBL:D3H559,NCBI_GP:CBG27823.1;gbkey=CDS;gene=traT;product=enterobacterial complement resistance protein;protein_id=CBG27823.1;transl_table=11
+FN554767.1	EMBL	region	60526	61254	.	-	.	ID=id104;Note=HMMPfam hit to PF05818%2C TraT%2C score 1.9e-195;gbkey=misc_feature;gene=traT
+FN554767.1	EMBL	region	61171	61239	.	-	.	ID=id105;Note=1 probable transmembrane helix predicted for EC042_pAA071 by TMHMM2.0 at aa 21-43;gbkey=misc_feature;gene=traT
+FN554767.1	EMBL	region	61180	61299	.	-	.	ID=id106;Note=Signal peptide predicted for EC042_pAA071 by SignalP 2.0 HMM %28Signal peptide probability 0.984%29 with cleavage site probability 0.409 between residues 40 and 41;gbkey=misc_feature;gene=traT
+FN554767.1	EMBL	region	61192	61224	.	-	.	ID=id107;Note=PS00013 Prokaryotic membrane lipoprotein lipid attachment site.;gbkey=misc_feature;gene=traT
+FN554767.1	EMBL	gene	61286	61783	.	-	.	ID=gene70;Name=traS;gbkey=Gene;gene=traS;locus_tag=EC042_pAA072
+FN554767.1	EMBL	CDS	61286	61783	.	-	0	ID=cds70;Name=CBG27824.1;Parent=gene70;Dbxref=InterPro:IPR018898,UniProtKB%2FTrEMBL:D3H560,NCBI_GP:CBG27824.1;gbkey=CDS;gene=traS;product=conjugative transfer protein;protein_id=CBG27824.1;transl_table=11
+FN554767.1	EMBL	region	61721	61774	.	-	.	ID=id108;Note=3 probable transmembrane helices predicted for EC042_pAA072 by TMHMM2.0 at aa 4-21%2C 28-50 and 65-87;gbkey=misc_feature;gene=traS;part=1%2F3
+FN554767.1	EMBL	region	61634	61702	.	-	.	ID=id108;Note=3 probable transmembrane helices predicted for EC042_pAA072 by TMHMM2.0 at aa 4-21%2C 28-50 and 65-87;gbkey=misc_feature;gene=traS;part=2%2F3
+FN554767.1	EMBL	region	61523	61591	.	-	.	ID=id108;Note=3 probable transmembrane helices predicted for EC042_pAA072 by TMHMM2.0 at aa 4-21%2C 28-50 and 65-87;gbkey=misc_feature;gene=traS;part=3%2F3
+FN554767.1	EMBL	gene	61804	64626	.	-	.	ID=gene71;Name=traG;gbkey=Gene;gene=traG;locus_tag=EC042_pAA073
+FN554767.1	EMBL	CDS	61804	64626	.	-	0	ID=cds71;Name=CBG27825.1;Parent=gene71;Dbxref=InterPro:IPR012931,UniProtKB%2FTrEMBL:D3H561,NCBI_GP:CBG27825.1;gbkey=CDS;gene=traG;product=conjugative transfer protein;protein_id=CBG27825.1;transl_table=11
+FN554767.1	EMBL	region	63163	64623	.	-	.	ID=id109;Note=HMMPfam hit to PF07916%2C TraG_N%2C score 5.1e-231;gbkey=misc_feature;gene=traG
+FN554767.1	EMBL	region	63580	63648	.	-	.	ID=id110;Note=2 probable transmembrane helices predicted for EC042_pAA073 by TMHMM2.0 at aa 327-349 and 356-378;gbkey=misc_feature;gene=traG;part=1%2F2
+FN554767.1	EMBL	region	63493	63561	.	-	.	ID=id110;Note=2 probable transmembrane helices predicted for EC042_pAA073 by TMHMM2.0 at aa 327-349 and 356-378;gbkey=misc_feature;gene=traG;part=2%2F2
+FN554767.1	EMBL	gene	64623	65996	.	-	.	ID=gene72;Name=traH;gbkey=Gene;gene=traH;locus_tag=EC042_pAA074
+FN554767.1	EMBL	CDS	64623	65996	.	-	0	ID=cds72;Name=CBG27826.1;Parent=gene72;Dbxref=InterPro:IPR010927,UniProtKB%2FTrEMBL:D3H562,NCBI_GP:CBG27826.1;gbkey=CDS;gene=traH;product=conjugative transfer protein;protein_id=CBG27826.1;transl_table=11
+FN554767.1	EMBL	region	64671	65978	.	-	.	ID=id111;Note=HMMPfam hit to PF06122%2C TraH%2C score 6.8e-219;gbkey=misc_feature;gene=traH
+FN554767.1	EMBL	region	64872	64925	.	-	.	ID=id112;Note=PS00214 Cytosolic fatty-acid binding proteins signature.;gbkey=misc_feature;gene=traH
+FN554767.1	EMBL	region	65928	65996	.	-	.	ID=id113;Note=Signal peptide predicted for EC042_pAA074 by SignalP 2.0 HMM %28Signal peptide probability 1.000%29 with cleavage site probability 0.704 between residues 23 and 24;gbkey=misc_feature;gene=traH
+FN554767.1	EMBL	gene	65983	66375	.	-	.	ID=gene73;Name=trbf;gbkey=Gene;gene=trbf;locus_tag=EC042_pAA075
+FN554767.1	EMBL	CDS	65983	66375	.	-	0	ID=cds73;Name=CBG27827.1;Parent=gene73;Dbxref=InterPro:IPR016386,UniProtKB%2FTrEMBL:D3H563,NCBI_GP:CBG27827.1;gbkey=CDS;gene=trbf;product=conjugative transfer protein;protein_id=CBG27827.1;transl_table=11
+FN554767.1	EMBL	region	66223	66291	.	-	.	ID=id114;Note=2 probable transmembrane helices predicted for EC042_pAA075 by TMHMM2.0 at aa 29-51 and 71-93;gbkey=misc_feature;gene=trbf;part=1%2F2
+FN554767.1	EMBL	region	66097	66165	.	-	.	ID=id114;Note=2 probable transmembrane helices predicted for EC042_pAA075 by TMHMM2.0 at aa 29-51 and 71-93;gbkey=misc_feature;gene=trbf;part=2%2F2
+FN554767.1	EMBL	gene	66356	66643	.	-	.	ID=gene74;Name=trbJ;gbkey=Gene;gene=trbJ;locus_tag=EC042_pAA076
+FN554767.1	EMBL	CDS	66356	66643	.	-	0	ID=cds74;Name=CBG27828.1;Parent=gene74;Dbxref=UniProtKB%2FTrEMBL:D3H564,NCBI_GP:CBG27828.1;gbkey=CDS;gene=trbJ;product=conjugative transfer protein;protein_id=CBG27828.1;transl_table=11
+FN554767.1	EMBL	region	66557	66625	.	-	.	ID=id115;Note=2 probable transmembrane helices predicted for EC042_pAA076 by TMHMM2.0 at aa 7-29 and 44-66;gbkey=misc_feature;gene=trbJ;part=1%2F2
+FN554767.1	EMBL	region	66446	66514	.	-	.	ID=id115;Note=2 probable transmembrane helices predicted for EC042_pAA076 by TMHMM2.0 at aa 7-29 and 44-66;gbkey=misc_feature;gene=trbJ;part=2%2F2
+FN554767.1	EMBL	region	66587	66643	.	-	.	ID=id116;Note=Signal peptide predicted for EC042_pAA076 by SignalP 2.0 HMM %28Signal peptide probability 0.902%29 with cleavage site probability 0.644 between residues 19 and 20;gbkey=misc_feature;gene=trbJ
+FN554767.1	EMBL	gene	66633	67178	.	-	.	ID=gene75;Name=trbB;gbkey=Gene;gene=trbB;locus_tag=EC042_pAA077
+FN554767.1	EMBL	CDS	66633	67178	.	-	0	ID=cds75;Name=CBG27829.1;Parent=gene75;Dbxref=InterPro:IPR012336,InterPro:IPR014109,UniProtKB%2FTrEMBL:D3H565,NCBI_GP:CBG27829.1;gbkey=CDS;gene=trbB;product=conjugative transfer protein;protein_id=CBG27829.1;transl_table=11
+FN554767.1	EMBL	region	67119	67178	.	-	.	ID=id117;Note=Signal peptide predicted for EC042_pAA077 by SignalP 2.0 HMM %28Signal peptide probability 1.000%29 with cleavage site probability 0.989 between residues 20 and 21;gbkey=misc_feature;gene=trbB
+FN554767.1	EMBL	gene	67165	67449	.	-	.	ID=gene76;Name=traQ;gbkey=Gene;gene=traQ;locus_tag=EC042_pAA078
+FN554767.1	EMBL	CDS	67165	67449	.	-	0	ID=cds76;Name=CBG27830.1;Parent=gene76;Dbxref=InterPro:IPR014112,UniProtKB%2FTrEMBL:D3H566,NCBI_GP:CBG27830.1;gbkey=CDS;gene=traQ;product=conjugative transfer protein;protein_id=CBG27830.1;transl_table=11
+FN554767.1	EMBL	region	67348	67416	.	-	.	ID=id118;Note=2 probable transmembrane helices predicted for EC042_pAA078 by TMHMM2.0 at aa 12-34 and 38-60;gbkey=misc_feature;gene=traQ;part=1%2F2
+FN554767.1	EMBL	region	67270	67338	.	-	.	ID=id118;Note=2 probable transmembrane helices predicted for EC042_pAA078 by TMHMM2.0 at aa 12-34 and 38-60;gbkey=misc_feature;gene=traQ;part=2%2F2
+FN554767.1	EMBL	gene	67576	67914	.	-	.	ID=gene77;Name=trbA;gbkey=Gene;gene=trbA;locus_tag=EC042_pAA079
+FN554767.1	EMBL	CDS	67576	67914	.	-	0	ID=cds77;Name=CBG27831.1;Parent=gene77;Dbxref=InterPro:IPR016385,UniProtKB%2FTrEMBL:D3H567,NCBI_GP:CBG27831.1;gbkey=CDS;gene=trbA;product=conjugative transfer protein;protein_id=CBG27831.1;transl_table=11
+FN554767.1	EMBL	region	67834	67902	.	-	.	ID=id119;Note=4 probable transmembrane helices predicted for EC042_pAA079 by TMHMM2.0 at aa 5-27%2C 34-53%2C 57-79 and 91-109;gbkey=misc_feature;gene=trbA;part=1%2F4
+FN554767.1	EMBL	region	67756	67815	.	-	.	ID=id119;Note=4 probable transmembrane helices predicted for EC042_pAA079 by TMHMM2.0 at aa 5-27%2C 34-53%2C 57-79 and 91-109;gbkey=misc_feature;gene=trbA;part=2%2F4
+FN554767.1	EMBL	region	67678	67746	.	-	.	ID=id119;Note=4 probable transmembrane helices predicted for EC042_pAA079 by TMHMM2.0 at aa 5-27%2C 34-53%2C 57-79 and 91-109;gbkey=misc_feature;gene=trbA;part=3%2F4
+FN554767.1	EMBL	region	67588	67644	.	-	.	ID=id119;Note=4 probable transmembrane helices predicted for EC042_pAA079 by TMHMM2.0 at aa 5-27%2C 34-53%2C 57-79 and 91-109;gbkey=misc_feature;gene=trbA;part=4%2F4
+FN554767.1	EMBL	gene	67930	68673	.	-	.	ID=gene78;Name=traF;gbkey=Gene;gene=traF;locus_tag=EC042_pAA080
+FN554767.1	EMBL	CDS	67930	68673	.	-	0	ID=cds78;Name=CBG27832.1;Parent=gene78;Dbxref=InterPro:IPR014110,UniProtKB%2FTrEMBL:D3H568,NCBI_GP:CBG27832.1;gbkey=CDS;gene=traF;product=conjugative transfer protein;protein_id=CBG27832.1;transl_table=11
+FN554767.1	EMBL	region	68617	68673	.	-	.	ID=id120;Note=Signal peptide predicted for EC042_pAA080 by SignalP 2.0 HMM %28Signal peptide probability 1.000%29 with cleavage site probability 0.990 between residues 19 and 20;gbkey=misc_feature;gene=traF
+FN554767.1	EMBL	gene	68666	68926	.	-	.	ID=gene79;Name=trbE;gbkey=Gene;gene=trbE;locus_tag=EC042_pAA081
+FN554767.1	EMBL	CDS	68666	68926	.	-	0	ID=cds79;Name=CBG27833.1;Parent=gene79;Dbxref=InterPro:IPR020150,UniProtKB%2FTrEMBL:D3H569,NCBI_GP:CBG27833.1;gbkey=CDS;gene=trbE;product=conjugative transfer protein;protein_id=CBG27833.1;transl_table=11
+FN554767.1	EMBL	region	68834	68890	.	-	.	ID=id121;Note=2 probable transmembrane helices predicted for EC042_pAA081 by TMHMM2.0 at aa 13-31 and 46-68;gbkey=misc_feature;gene=trbE;part=1%2F2
+FN554767.1	EMBL	region	68723	68791	.	-	.	ID=id121;Note=2 probable transmembrane helices predicted for EC042_pAA081 by TMHMM2.0 at aa 13-31 and 46-68;gbkey=misc_feature;gene=trbE;part=2%2F2
+FN554767.1	EMBL	gene	68950	70800	.	-	.	ID=gene80;Name=traN;gbkey=Gene;gene=traN;locus_tag=EC042_pAA082
+FN554767.1	EMBL	CDS	68950	70800	.	-	0	ID=cds80;Name=CBG27834.1;Parent=gene80;Dbxref=InterPro:IPR009726,InterPro:IPR014121,UniProtKB%2FTrEMBL:D3H570,NCBI_GP:CBG27834.1;gbkey=CDS;gene=traN;product=conjugative transfer protein;protein_id=CBG27834.1;transl_table=11
+FN554767.1	EMBL	region	69604	69708	.	-	.	ID=id122;Note=HMMPfam hit to PF06986%2C TraN%2C score 1.1e-13;gbkey=misc_feature;gene=traN
+FN554767.1	EMBL	region	70015	70047	.	-	.	ID=id123;Note=PS00013 Prokaryotic membrane lipoprotein lipid attachment site.;gbkey=misc_feature;gene=traN
+FN554767.1	EMBL	region	70528	70551	.	-	.	ID=id124;Note=PS00017 ATP%2FGTP-binding site motif A %28P-loop%29.;gbkey=misc_feature;gene=traN
+FN554767.1	EMBL	region	70747	70800	.	-	.	ID=id125;Note=Signal peptide predicted for EC042_pAA082 by SignalP 2.0 HMM %28Signal peptide probability 1.000%29 with cleavage site probability 0.995 between residues 18 and 19;gbkey=misc_feature;gene=traN
+FN554767.1	EMBL	gene	70797	71435	.	-	.	ID=gene81;Name=trbC;gbkey=Gene;gene=trbC;locus_tag=EC042_pAA083
+FN554767.1	EMBL	CDS	70797	71435	.	-	0	ID=cds81;Name=CBG27835.1;Parent=gene81;Dbxref=InterPro:IPR014113,InterPro:IPR019106,UniProtKB%2FTrEMBL:D3H5B1,NCBI_GP:CBG27835.1;gbkey=CDS;gene=trbC;product=conjugative transfer protein;protein_id=CBG27835.1;transl_table=11
+FN554767.1	EMBL	region	71373	71435	.	-	.	ID=id126;Note=Signal peptide predicted for EC042_pAA083 by SignalP 2.0 HMM %28Signal peptide probability 1.000%29 with cleavage site probability 1.000 between residues 21 and 22;gbkey=misc_feature;gene=trbC
+FN554767.1	EMBL	gene	71444	71755	.	-	.	ID=gene82;Name=EC042_pAA084;gbkey=Gene;locus_tag=EC042_pAA084
+FN554767.1	EMBL	CDS	71444	71755	.	-	0	ID=cds82;Name=CBG27836.1;Parent=gene82;Dbxref=UniProtKB%2FTrEMBL:D3H5B2,NCBI_GP:CBG27836.1;gbkey=CDS;product=putative conjugative transfer protein;protein_id=CBG27836.1;transl_table=11
+FN554767.1	EMBL	region	71630	71698	.	-	.	ID=id127;Note=2 probable transmembrane helices predicted for EC042_pAA084 by TMHMM2.0 at aa 20-42 and 70-92;gbkey=misc_feature;part=1%2F2
+FN554767.1	EMBL	region	71480	71548	.	-	.	ID=id127;Note=2 probable transmembrane helices predicted for EC042_pAA084 by TMHMM2.0 at aa 20-42 and 70-92;gbkey=misc_feature;part=2%2F2
+FN554767.1	EMBL	gene	71779	72771	.	-	.	ID=gene83;Name=traU;gbkey=Gene;gene=traU;locus_tag=EC042_pAA085
+FN554767.1	EMBL	CDS	71779	72771	.	-	0	ID=cds83;Name=CBG27837.1;Parent=gene83;Dbxref=InterPro:IPR009649,UniProtKB%2FTrEMBL:D3H5B3,NCBI_GP:CBG27837.1;gbkey=CDS;gene=traU;product=conjugative transfer protein;protein_id=CBG27837.1;transl_table=11
+FN554767.1	EMBL	region	71782	72696	.	-	.	ID=id128;Note=HMMPfam hit to PF06834%2C TraU%2C score 2.6e-223;gbkey=misc_feature;gene=traU
+FN554767.1	EMBL	region	72313	72345	.	-	.	ID=id129;Note=PS00013 Prokaryotic membrane lipoprotein lipid attachment site.;gbkey=misc_feature;gene=traU
+FN554767.1	EMBL	region	72706	72771	.	-	.	ID=id130;Note=Signal peptide predicted for EC042_pAA085 by SignalP 2.0 HMM %28Signal peptide probability 1.000%29 with cleavage site probability 0.471 between residues 22 and 23;gbkey=misc_feature;gene=traU
+FN554767.1	EMBL	gene	72768	73400	.	-	.	ID=gene84;Name=traW;gbkey=Gene;gene=traW;locus_tag=EC042_pAA086
+FN554767.1	EMBL	CDS	72768	73400	.	-	0	ID=cds84;Name=CBG27838.1;Parent=gene84;Dbxref=InterPro:IPR014114,UniProtKB%2FTrEMBL:D3H5B4,NCBI_GP:CBG27838.1;gbkey=CDS;gene=traW;product=conjugative transfer protein;protein_id=CBG27838.1;transl_table=11
+FN554767.1	EMBL	region	73347	73400	.	-	.	ID=id131;Note=Signal peptide predicted for EC042_pAA086 by SignalP 2.0 HMM %28Signal peptide probability 0.997%29 with cleavage site probability 0.824 between residues 18 and 19;gbkey=misc_feature;gene=traW
+FN554767.1	EMBL	gene	73397	73783	.	-	.	ID=gene85;Name=trbI;gbkey=Gene;gene=trbI;locus_tag=EC042_pAA087
+FN554767.1	EMBL	CDS	73397	73783	.	-	0	ID=cds85;Name=CBG27839.1;Parent=gene85;Dbxref=InterPro:IPR014115,UniProtKB%2FTrEMBL:D3H5B5,NCBI_GP:CBG27839.1;gbkey=CDS;gene=trbI;product=conjugative transfer protein;protein_id=CBG27839.1;transl_table=11
+FN554767.1	EMBL	region	73658	73726	.	-	.	ID=id132;Note=1 probable transmembrane helix predicted for EC042_pAA087 by TMHMM2.0 at aa 20-42;gbkey=misc_feature;gene=trbI
+FN554767.1	EMBL	gene	73780	76407	.	-	.	ID=gene86;Name=traC;gbkey=Gene;gene=traC;locus_tag=EC042_pAA088
+FN554767.1	EMBL	CDS	73780	76407	.	-	0	ID=cds86;Name=CBG27840.1;Parent=gene86;Dbxref=InterPro:IPR014117,UniProtKB%2FTrEMBL:D3H5B6,NCBI_GP:CBG27840.1;gbkey=CDS;gene=traC;product=conjugative transfer protein;protein_id=CBG27840.1;transl_table=11
+FN554767.1	EMBL	region	74929	74952	.	-	.	ID=id133;Note=PS00017 ATP%2FGTP-binding site motif A %28P-loop%29.;gbkey=misc_feature;gene=traC
+FN554767.1	EMBL	gene	76567	76788	.	-	.	ID=gene87;Name=traR;gbkey=Gene;gene=traR;locus_tag=EC042_pAA089
+FN554767.1	EMBL	CDS	76567	76788	.	-	0	ID=cds87;Name=CBG27841.1;Parent=gene87;Dbxref=GOA:D3H5B7,InterPro:IPR000962,InterPro:IPR012783,InterPro:IPR020458,InterPro:IPR020460,UniProtKB%2FTrEMBL:D3H5B7,NCBI_GP:CBG27841.1;gbkey=CDS;gene=traR;product=conjugative transfer protein;protein_id=CBG27841.1;transl_table=11
+FN554767.1	EMBL	region	76582	76788	.	-	.	ID=id134;Note=HMMPfam hit to PF01258%2C zf-dskA_traR%2C score 4e-39;gbkey=misc_feature;gene=traR
+FN554767.1	EMBL	region	76606	76680	.	-	.	ID=id135;Note=PS01102 Prokaryotic dksA%2FtraR C4-type zinc finger.;gbkey=misc_feature;gene=traR
+FN554767.1	EMBL	gene	76923	77438	.	-	.	ID=gene88;Name=traV;gbkey=Gene;gene=traV;locus_tag=EC042_pAA090
+FN554767.1	EMBL	CDS	76923	77438	.	-	0	ID=cds88;Name=CBG27842.1;Parent=gene88;Dbxref=InterPro:IPR014118,UniProtKB%2FTrEMBL:D3H5B8,NCBI_GP:CBG27842.1;gbkey=CDS;gene=traV;product=conjugative transfer protein;protein_id=CBG27842.1;transl_table=11
+FN554767.1	EMBL	region	77373	77438	.	-	.	ID=id136;Note=Signal peptide predicted for EC042_pAA090 by SignalP 2.0 HMM %28Signal peptide probability 0.983%29 with cleavage site probability 0.549 between residues 22 and 23;gbkey=misc_feature;gene=traV
+FN554767.1	EMBL	region	77382	77414	.	-	.	ID=id137;Note=PS00013 Prokaryotic membrane lipoprotein lipid attachment site.;gbkey=misc_feature;gene=traV
+FN554767.1	EMBL	gene	77435	77749	.	-	.	ID=gene89;Name=trbD;gbkey=Gene;gene=trbD;locus_tag=EC042_pAA091
+FN554767.1	EMBL	CDS	77435	77749	.	-	0	ID=cds89;Name=CBG27843.1;Parent=gene89;Dbxref=InterPro:IPR024396,UniProtKB%2FTrEMBL:D3H5B9,NCBI_GP:CBG27843.1;gbkey=CDS;gene=trbD;product=conjugative transfer protein;protein_id=CBG27843.1;transl_table=11
+FN554767.1	EMBL	region	77498	77521	.	-	.	ID=id138;Note=PS00017 ATP%2FGTP-binding site motif A %28P-loop%29.;gbkey=misc_feature;gene=trbD
+FN554767.1	EMBL	gene	77742	78302	.	-	.	ID=gene90;Name=traP;gbkey=Gene;gene=traP;locus_tag=EC042_pAA092
+FN554767.1	EMBL	CDS	77742	78302	.	-	0	ID=cds90;Name=CBG27844.1;Parent=gene90;Dbxref=InterPro:IPR009913,UniProtKB%2FTrEMBL:D3H5C0,NCBI_GP:CBG27844.1;gbkey=CDS;gene=traP;product=conjugative transfer protein;protein_id=CBG27844.1;transl_table=11
+FN554767.1	EMBL	region	77745	78302	.	-	.	ID=id139;Note=HMMPfam hit to PF07296%2C TraP%2C score 4.4e-107;gbkey=misc_feature;gene=traP
+FN554767.1	EMBL	region	78180	78248	.	-	.	ID=id140;Note=2 probable transmembrane helices predicted for EC042_pAA092 by TMHMM2.0 at aa 19-41 and 106-128;gbkey=misc_feature;gene=traP;part=1%2F2
+FN554767.1	EMBL	region	77919	77987	.	-	.	ID=id140;Note=2 probable transmembrane helices predicted for EC042_pAA092 by TMHMM2.0 at aa 19-41 and 106-128;gbkey=misc_feature;gene=traP;part=2%2F2
+FN554767.1	EMBL	gene	78292	79743	.	-	.	ID=gene91;Name=traB;gbkey=Gene;gene=traB;locus_tag=EC042_pAA093
+FN554767.1	EMBL	CDS	78292	79743	.	-	0	ID=cds91;Name=CBG27845.1;Parent=gene91;Dbxref=InterPro:IPR005498,UniProtKB%2FTrEMBL:D3H5C1,NCBI_GP:CBG27845.1;gbkey=CDS;gene=traB;product=conjugative transfer protein;protein_id=CBG27845.1;transl_table=11
+FN554767.1	EMBL	region	78514	79698	.	-	.	ID=id141;Note=HMMPfam hit to PF06447%2C TraB_pillus%2C score 1.1e-213;gbkey=misc_feature;gene=traB
+FN554767.1	EMBL	region	79648	79707	.	-	.	ID=id142;Note=1 probable transmembrane helix predicted for EC042_pAA093 by TMHMM2.0 at aa 13-32;gbkey=misc_feature;gene=traB
+FN554767.1	EMBL	region	79660	79743	.	-	.	ID=id143;Note=Signal peptide predicted for EC042_pAA093 by SignalP 2.0 HMM %28Signal peptide probability 0.911%29 with cleavage site probability 0.395 between residues 28 and 29;gbkey=misc_feature;gene=traB
+FN554767.1	EMBL	gene	79743	80471	.	-	.	ID=gene92;Name=traK;gbkey=Gene;gene=traK;locus_tag=EC042_pAA094
+FN554767.1	EMBL	CDS	79743	80471	.	-	0	ID=cds92;Name=CBG27846.1;Parent=gene92;Dbxref=InterPro:IPR010563,InterPro:IPR014126,UniProtKB%2FTrEMBL:D3H5C2,NCBI_GP:CBG27846.1;gbkey=CDS;gene=traK;product=conjugative transfer protein;protein_id=CBG27846.1;transl_table=11
+FN554767.1	EMBL	region	79746	80471	.	-	.	ID=id144;Note=HMMPfam hit to PF06586%2C TraK%2C score 1.9e-189;gbkey=misc_feature;gene=traK
+FN554767.1	EMBL	region	80385	80453	.	-	.	ID=id145;Note=1 probable transmembrane helix predicted for EC042_pAA094 by TMHMM2.0 at aa 7-29;gbkey=misc_feature;gene=traK
+FN554767.1	EMBL	region	80409	80471	.	-	.	ID=id146;Note=Signal peptide predicted for EC042_pAA094 by SignalP 2.0 HMM %28Signal peptide probability 1.000%29 with cleavage site probability 0.997 between residues 21 and 22;gbkey=misc_feature;gene=traK
+FN554767.1	EMBL	region	80421	80453	.	-	.	ID=id147;Note=PS00013 Prokaryotic membrane lipoprotein lipid attachment site.;gbkey=misc_feature;gene=traK
+FN554767.1	EMBL	gene	80458	81024	.	-	.	ID=gene93;Name=traE;gbkey=Gene;gene=traE;locus_tag=EC042_pAA095
+FN554767.1	EMBL	CDS	80458	81024	.	-	0	ID=cds93;Name=CBG27847.1;Parent=gene93;Dbxref=GOA:D3H5C3,InterPro:IPR007973,UniProtKB%2FTrEMBL:D3H5C3,NCBI_GP:CBG27847.1;gbkey=CDS;gene=traE;product=conjugative transfer protein;protein_id=CBG27847.1;transl_table=11
+FN554767.1	EMBL	region	80464	81024	.	-	.	ID=id148;Note=HMMPfam hit to PF05309%2C TraE%2C score 1.4e-128;gbkey=misc_feature;gene=traE
+FN554767.1	EMBL	region	80929	80997	.	-	.	ID=id149;Note=1 probable transmembrane helix predicted for EC042_pAA095 by TMHMM2.0 at aa 10-32;gbkey=misc_feature;gene=traE
+FN554767.1	EMBL	gene	81046	81357	.	-	.	ID=gene94;Name=traL;gbkey=Gene;gene=traL;locus_tag=EC042_pAA096
+FN554767.1	EMBL	CDS	81046	81357	.	-	0	ID=cds94;Name=CBG27848.1;Parent=gene94;Dbxref=GOA:D3H5C4,InterPro:IPR009838,InterPro:IPR016382,UniProtKB%2FTrEMBL:D3H5C4,NCBI_GP:CBG27848.1;gbkey=CDS;gene=traL;product=conjugative transfer protein;protein_id=CBG27848.1;transl_table=11
+FN554767.1	EMBL	region	81049	81333	.	-	.	ID=id150;Note=HMMPfam hit to PF07178%2C TraL%2C score 6.7e-35;gbkey=misc_feature;gene=traL
+FN554767.1	EMBL	region	81178	81246	.	-	.	ID=id151;Note=1 probable transmembrane helix predicted for EC042_pAA096 by TMHMM2.0 at aa 38-60;gbkey=misc_feature;gene=traL
+FN554767.1	EMBL	gene	81372	81737	.	-	.	ID=gene95;Name=traA;gbkey=Gene;gene=traA;locus_tag=EC042_pAA097
+FN554767.1	EMBL	CDS	81372	81737	.	-	0	ID=cds95;Name=CBG27849.1;Parent=gene95;Dbxref=GOA:D3H5C5,InterPro:IPR008873,UniProtKB%2FTrEMBL:D3H5C5,NCBI_GP:CBG27849.1;gbkey=CDS;gene=traA;product=pilin precursor;protein_id=CBG27849.1;transl_table=11
+FN554767.1	EMBL	region	81378	81737	.	-	.	ID=id152;Note=HMMPfam hit to PF05513%2C TraA%2C score 5.8e-79;gbkey=misc_feature;gene=traA
+FN554767.1	EMBL	region	81585	81653	.	-	.	ID=id153;Note=3 probable transmembrane helices predicted for EC042_pAA097 by TMHMM2.0 at aa 29-51%2C 77-94 and 101-120;gbkey=misc_feature;gene=traA;part=1%2F3
+FN554767.1	EMBL	region	81456	81509	.	-	.	ID=id153;Note=3 probable transmembrane helices predicted for EC042_pAA097 by TMHMM2.0 at aa 29-51%2C 77-94 and 101-120;gbkey=misc_feature;gene=traA;part=2%2F3
+FN554767.1	EMBL	region	81378	81437	.	-	.	ID=id153;Note=3 probable transmembrane helices predicted for EC042_pAA097 by TMHMM2.0 at aa 29-51%2C 77-94 and 101-120;gbkey=misc_feature;gene=traA;part=3%2F3
+FN554767.1	EMBL	region	81585	81737	.	-	.	ID=id154;Note=Signal peptide predicted for EC042_pAA097 by SignalP 2.0 HMM %28Signal peptide probability 0.998%29 with cleavage site probability 0.947 between residues 51 and 52;gbkey=misc_feature;gene=traA
+FN554767.1	EMBL	gene	81771	81998	.	-	.	ID=gene96;Name=traY;gbkey=Gene;gene=traY;locus_tag=EC042_pAA098
+FN554767.1	EMBL	CDS	81771	81998	.	-	0	ID=cds96;Name=CBG27850.1;Parent=gene96;Dbxref=GOA:D3H5C6,InterPro:IPR008876,UniProtKB%2FTrEMBL:D3H5C6,NCBI_GP:CBG27850.1;gbkey=CDS;gene=traY;product=conjugative transfer protein;protein_id=CBG27850.1;transl_table=11
+FN554767.1	EMBL	region	81798	81998	.	-	.	ID=id155;Note=HMMPfam hit to PF05509%2C TraY%2C score 3.6e-37;gbkey=misc_feature;gene=traY
+FN554767.1	EMBL	gene	82092	82778	.	-	.	ID=gene97;Name=traJ;gbkey=Gene;gene=traJ;locus_tag=EC042_pAA099
+FN554767.1	EMBL	CDS	82092	82778	.	-	0	ID=cds97;Name=CBG27851.1;Parent=gene97;Dbxref=GOA:D3H5C7,InterPro:IPR000014,InterPro:IPR013767,InterPro:IPR016384,UniProtKB%2FTrEMBL:D3H5C7,NCBI_GP:CBG27851.1;gbkey=CDS;gene=traJ;product=conjugative transfer protein;protein_id=CBG27851.1;transl_table=11
+FN554767.1	EMBL	region	82404	82718	.	-	.	ID=id156;Note=HMMPfam hit to PF00989%2C PAS%2C score 2.3e-20;gbkey=misc_feature;gene=traJ
+FN554767.1	EMBL	gene	82794	82889	.	+	.	ID=gene98;Name=finP;gbkey=Gene;gene=finP
+FN554767.1	EMBL	transcript	82794	82889	.	+	.	ID=rna0;Parent=gene98;Note=antisense RNA of traY-Z mRNA;gbkey=misc_RNA;gene=finP
+FN554767.1	EMBL	exon	82794	82889	.	+	.	ID=id157;Parent=rna0;Note=antisense RNA of traY-Z mRNA;gbkey=misc_RNA;gene=finP
+FN554767.1	EMBL	gene	82972	83355	.	-	.	ID=gene99;Name=traM;gbkey=Gene;gene=traM;locus_tag=EC042_pAA100
+FN554767.1	EMBL	CDS	82972	83355	.	-	0	ID=cds98;Name=CBG27852.1;Parent=gene99;Dbxref=GOA:D3H5C8,InterPro:IPR007925,InterPro:IPR010992,UniProtKB%2FTrEMBL:D3H5C8,NCBI_GP:CBG27852.1;gbkey=CDS;gene=traM;product=conjugative transfer protein;protein_id=CBG27852.1;transl_table=11
+FN554767.1	EMBL	region	82975	83355	.	-	.	ID=id158;Note=HMMPfam hit to PF05261%2C Tra_M%2C score 1.5e-88;gbkey=misc_feature;gene=traM
+FN554767.1	EMBL	gene	83779	84288	.	+	.	ID=gene100;Name=EC042_pAA101;gbkey=Gene;locus_tag=EC042_pAA101
+FN554767.1	EMBL	CDS	83779	84288	.	+	0	ID=cds99;Name=CBG27853.1;Parent=gene100;Dbxref=InterPro:IPR008258,InterPro:IPR023346,UniProtKB%2FTrEMBL:D3H5C9,NCBI_GP:CBG27853.1;gbkey=CDS;product=putative transglycosylase;protein_id=CBG27853.1;transl_table=11
+FN554767.1	EMBL	region	83779	83835	.	+	.	ID=id159;Note=Signal peptide predicted for EC042_pAA101 by SignalP 2.0 HMM %28Signal peptide probability 0.990%29 with cleavage site probability 0.988 between residues 19 and 20;gbkey=misc_feature
+FN554767.1	EMBL	region	83839	84198	.	+	.	ID=id160;Note=HMMPfam hit to PF01464%2C SLT%2C score 4.2e-42;gbkey=misc_feature
+FN554767.1	EMBL	gene	84585	85406	.	-	.	ID=gene101;Name=EC042_pAA102;gbkey=Gene;locus_tag=EC042_pAA102
+FN554767.1	EMBL	CDS	84585	85406	.	-	0	ID=cds100;Name=CBG27854.1;Parent=gene101;Dbxref=InterPro:IPR017686,UniProtKB%2FTrEMBL:D3H5D0,NCBI_GP:CBG27854.1;gbkey=CDS;product=conserved hypothetical protein;protein_id=CBG27854.1;transl_table=11
+FN554767.1	EMBL	region	84588	85406	.	-	.	ID=id161;Note=HMMPfam hit to PF06067%2C DUF932%2C score 1.1e-225;gbkey=misc_feature
+FN554767.1	EMBL	gene	85517	85813	.	-	.	ID=gene102;Name=EC042_pAA103;gbkey=Gene;locus_tag=EC042_pAA103
+FN554767.1	EMBL	CDS	85517	85813	.	-	0	ID=cds101;Name=CBG27855.1;Parent=gene102;Dbxref=UniProtKB%2FTrEMBL:D3H5D1,NCBI_GP:CBG27855.1;gbkey=CDS;product=conserved hypothetical protein;protein_id=CBG27855.1;transl_table=11
+FN554767.1	EMBL	gene	86113	86283	.	+	.	ID=gene103;Name=EC042_pAA104;gbkey=Gene;is_ordered=true;locus_tag=EC042_pAA104;part=1%2F2;pseudo=true
+FN554767.1	EMBL	gene	86285	86425	.	+	.	ID=gene103;Name=EC042_pAA104;gbkey=Gene;is_ordered=true;locus_tag=EC042_pAA104;part=2%2F2;pseudo=true
+FN554767.1	EMBL	CDS	86113	86283	.	+	0	ID=cds102;Parent=gene103;Dbxref=PSEUDO:CBG27856.1;gbkey=CDS;product=conserved hypothetical protein %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	CDS	86285	86425	.	+	0	ID=cds102;Parent=gene103;Dbxref=PSEUDO:CBG27856.1;gbkey=CDS;product=conserved hypothetical protein %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	region	86330	86398	.	-	.	ID=id162;Note=1 probable transmembrane helix predicted for EC042_pAA105 by TMHMM2.0 at aa 47-69;gbkey=misc_feature
+FN554767.1	EMBL	gene	86610	86684	.	+	.	ID=gene104;Name=EC042_pAA105;gbkey=Gene;locus_tag=EC042_pAA105;pseudo=true
+FN554767.1	EMBL	CDS	86610	86684	.	+	0	ID=cds103;Parent=gene104;gbkey=CDS;product=putative transposase %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	gene	86663	86824	.	-	.	ID=gene105;Name=hok;gbkey=Gene;gene=hok;locus_tag=EC042_pAA106
+FN554767.1	EMBL	CDS	86663	86824	.	-	0	ID=cds104;Name=CBG27858.1;Parent=gene105;Dbxref=GOA:D3H5D3,InterPro:IPR000021,UniProtKB%2FTrEMBL:D3H5D3,NCBI_GP:CBG27858.1;gbkey=CDS;gene=hok;product=post-segregation killing protein;protein_id=CBG27858.1;transl_table=11
+FN554767.1	EMBL	gene	86667	86882	.	-	.	ID=gene106;Name=mok;gbkey=Gene;gene=mok;locus_tag=EC042_pAA107
+FN554767.1	EMBL	CDS	86667	86882	.	-	0	ID=cds105;Name=CBG27859.1;Parent=gene106;Dbxref=UniProtKB%2FTrEMBL:D3H5D4,NCBI_GP:CBG27859.1;gbkey=CDS;gene=mok;product=modulator of Hok protein;protein_id=CBG27859.1;transl_table=11
+FN554767.1	EMBL	region	86669	86818	.	-	.	ID=id163;Note=HMMPfam hit to PF01848%2C HOK_GEF%2C score 1.2e-22;gbkey=misc_feature;gene=hok
+FN554767.1	EMBL	region	86747	86815	.	-	.	ID=id164;Note=1 probable transmembrane helix predicted for EC042_pAA106 by TMHMM2.0 at aa 4-26;gbkey=misc_feature;gene=hok
+FN554767.1	EMBL	gene	87032	87346	.	-	.	ID=gene107;Name=EC042_pAA108;gbkey=Gene;locus_tag=EC042_pAA108
+FN554767.1	EMBL	CDS	87032	87346	.	-	0	ID=cds106;Name=CBG27860.1;Parent=gene107;Dbxref=UniProtKB%2FTrEMBL:D3H5D5,NCBI_GP:CBG27860.1;gbkey=CDS;product=conserved hypothetical protein;protein_id=CBG27860.1;transl_table=11
+FN554767.1	EMBL	gene	87343	88062	.	-	.	ID=gene108;Name=psiA;gbkey=Gene;gene=psiA;locus_tag=EC042_pAA109
+FN554767.1	EMBL	CDS	87343	88062	.	-	0	ID=cds107;Name=CBG27861.1;Parent=gene108;Dbxref=InterPro:IPR009713,UniProtKB%2FTrEMBL:D3H5D6,NCBI_GP:CBG27861.1;gbkey=CDS;gene=psiA;product=plasmid SOS inhibition protein;protein_id=CBG27861.1;transl_table=11
+FN554767.1	EMBL	region	87352	88062	.	-	.	ID=id165;Note=HMMPfam hit to PF06952%2C PsiA%2C score 3e-177;gbkey=misc_feature;gene=psiA
+FN554767.1	EMBL	gene	88059	88493	.	-	.	ID=gene109;Name=psiB;gbkey=Gene;gene=psiB;locus_tag=EC042_pAA110
+FN554767.1	EMBL	CDS	88059	88493	.	-	0	ID=cds108;Name=CBG27862.1;Parent=gene109;Dbxref=InterPro:IPR009385,UniProtKB%2FTrEMBL:D3H5D7,NCBI_GP:CBG27862.1;gbkey=CDS;gene=psiB;product=PsiB protein;protein_id=CBG27862.1;transl_table=11
+FN554767.1	EMBL	region	88065	88493	.	-	.	ID=id166;Note=HMMPfam hit to PF06290%2C PsiB%2C score 1.5e-124;gbkey=misc_feature;gene=psiB
+FN554767.1	EMBL	gene	88548	90512	.	-	.	ID=gene110;Name=EC042_pAA111;gbkey=Gene;locus_tag=EC042_pAA111
+FN554767.1	EMBL	CDS	88548	90512	.	-	0	ID=cds109;Name=CBG27863.1;Parent=gene110;Dbxref=GOA:D3H5D8,InterPro:IPR003115,InterPro:IPR004437,UniProtKB%2FTrEMBL:D3H5D8,NCBI_GP:CBG27863.1;gbkey=CDS;product=ParB-like nuclease;protein_id=CBG27863.1;transl_table=11
+FN554767.1	EMBL	region	89982	90047	.	-	.	ID=id167;Note=Predicted helix-turn-helix motif with score 1473.000%2C SD 4.20 at aa 156-177%2C sequence KTPAQIGDLLGYSPRHVQRMLK;gbkey=misc_feature
+FN554767.1	EMBL	region	90042	90065	.	-	.	ID=id168;Note=PS00017 ATP%2FGTP-binding site motif A %28P-loop%29.;gbkey=misc_feature
+FN554767.1	EMBL	region	90111	90401	.	-	.	ID=id169;Note=HMMPfam hit to PF02195%2C ParBc%2C score 3.6e-28;gbkey=misc_feature
+FN554767.1	EMBL	gene	90565	90798	.	-	.	ID=gene111;Name=EC042_pAA112;gbkey=Gene;locus_tag=EC042_pAA112
+FN554767.1	EMBL	CDS	90565	90798	.	-	0	ID=cds110;Name=CBG27864.1;Parent=gene111;Dbxref=InterPro:IPR009253,UniProtKB%2FTrEMBL:D3H5D9,NCBI_GP:CBG27864.1;gbkey=CDS;product=conserved hypothetical protein;protein_id=CBG27864.1;transl_table=11
+FN554767.1	EMBL	region	90568	90783	.	-	.	ID=id170;Note=HMMPfam hit to PF06006%2C DUF905%2C score 3.4e-47;gbkey=misc_feature
+FN554767.1	EMBL	gene	90854	91381	.	-	.	ID=gene112;Name=ssb;gbkey=Gene;gene=ssb;locus_tag=EC042_pAA113
+FN554767.1	EMBL	CDS	90854	91381	.	-	0	ID=cds111;Name=CBG27865.1;Parent=gene112;Dbxref=GOA:D3H5E0,InterPro:IPR000424,InterPro:IPR011344,InterPro:IPR012340,InterPro:IPR016027,UniProtKB%2FTrEMBL:D3H5E0,NCBI_GP:CBG27865.1;gbkey=CDS;gene=ssb;product=single-stranded DNA-binding protein;protein_id=CBG27865.1;transl_table=11
+FN554767.1	EMBL	region	91046	91366	.	-	.	ID=id171;Note=HMMPfam hit to PF00436%2C SSB%2C score 1.2e-32;gbkey=misc_feature;gene=ssb
+FN554767.1	EMBL	region	91196	91225	.	-	.	ID=id172;Note=PS00736 Single-strand binding protein family signature 2.;gbkey=misc_feature;gene=ssb
+FN554767.1	EMBL	region	91328	91366	.	-	.	ID=id173;Note=PS00735 Single-strand binding protein family signature 1.;gbkey=misc_feature;gene=ssb
+FN554767.1	EMBL	gene	91407	91612	.	-	.	ID=gene113;Name=EC042_pAA114;gbkey=Gene;locus_tag=EC042_pAA114;pseudo=true
+FN554767.1	EMBL	CDS	91577	91612	.	-	0	ID=cds112;Parent=gene113;Dbxref=PSEUDO:CBG27866.1;gbkey=CDS;product=conserved hypothetical protein %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	CDS	91541	91573	.	-	0	ID=cds112;Parent=gene113;Dbxref=PSEUDO:CBG27866.1;gbkey=CDS;product=conserved hypothetical protein %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	CDS	91407	91538	.	-	0	ID=cds112;Parent=gene113;Dbxref=PSEUDO:CBG27866.1;gbkey=CDS;product=conserved hypothetical protein %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	gene	91613	91861	.	-	.	ID=gene114;Name=EC042_pAA116;gbkey=Gene;locus_tag=EC042_pAA116
+FN554767.1	EMBL	CDS	91613	91861	.	-	0	ID=cds113;Name=CBG27867.1;Parent=gene114;Dbxref=UniProtKB%2FTrEMBL:D3H5E2,NCBI_GP:CBG27867.1;gbkey=CDS;product=conserved hypothetical protein;protein_id=CBG27867.1;transl_table=11
+FN554767.1	EMBL	region	91962	92042	.	-	.	ID=id174;Note=Signal peptide predicted for EC042_pAA119 by SignalP 2.0 HMM %28Signal peptide probability 0.997%29 with cleavage site probability 0.946 between residues 27 and 28;gbkey=misc_feature
+FN554767.1	EMBL	region	91998	92030	.	-	.	ID=id175;Note=PS00013 Prokaryotic membrane lipoprotein lipid attachment site.;gbkey=misc_feature
+FN554767.1	EMBL	repeat_region	92046	92081	.	+	.	ID=id176;Note=%28agcagt%296;gbkey=repeat_region
+FN554767.1	EMBL	repeat_region	92082	92129	.	+	.	ID=id177;Note=%28agcaggagcagg%294;gbkey=repeat_region
+FN554767.1	EMBL	gene	92308	92871	.	-	.	ID=gene115;Name=EC042_pAA120;gbkey=Gene;locus_tag=EC042_pAA120
+FN554767.1	EMBL	CDS	92308	92871	.	-	0	ID=cds114;Name=CBG27870.1;Parent=gene115;Dbxref=GOA:D3H5E3,InterPro:IPR002052,InterPro:IPR002296,UniProtKB%2FTrEMBL:D3H5E3,NCBI_GP:CBG27870.1;gbkey=CDS;product=conserved hypothetical protein;protein_id=CBG27870.1;transl_table=11
+FN554767.1	EMBL	region	92506	92526	.	-	.	ID=id178;Note=PS00092 N-6 Adenine-specific DNA methylases signature.;gbkey=misc_feature
+FN554767.1	EMBL	gene	92918	94279	.	-	.	ID=gene116;Name=EC042_pAA121;gbkey=Gene;locus_tag=EC042_pAA121
+FN554767.1	EMBL	CDS	92918	94279	.	-	0	ID=cds115;Name=CBG27871.1;Parent=gene116;Dbxref=InterPro:IPR021944,UniProtKB%2FTrEMBL:D3H5E4,NCBI_GP:CBG27871.1;gbkey=CDS;product=conserved hypothetical protein;protein_id=CBG27871.1;transl_table=11
+FN554767.1	EMBL	gene	94331	94561	.	-	.	ID=gene117;Name=EC042_pAA122;gbkey=Gene;locus_tag=EC042_pAA122
+FN554767.1	EMBL	CDS	94331	94561	.	-	0	ID=cds116;Name=CBG27872.1;Parent=gene117;Dbxref=UniProtKB%2FTrEMBL:D3H5E5,NCBI_GP:CBG27872.1;gbkey=CDS;product=conserved hypothetical protein;protein_id=CBG27872.1;transl_table=11
+FN554767.1	EMBL	gene	94653	94790	.	-	.	ID=gene118;Name=EC042_pAA123;gbkey=Gene;locus_tag=EC042_pAA123
+FN554767.1	EMBL	CDS	94653	94790	.	-	0	ID=cds117;Name=CBG27873.1;Parent=gene118;Note=no significant database matches;Dbxref=UniProtKB%2FTrEMBL:D3H5E6,NCBI_GP:CBG27873.1;gbkey=CDS;product=hypothetical protein;protein_id=CBG27873.1;transl_table=11
+FN554767.1	EMBL	gene	94780	94920	.	-	.	ID=gene119;Name=EC042_pAA124;gbkey=Gene;locus_tag=EC042_pAA124
+FN554767.1	EMBL	CDS	94780	94920	.	-	0	ID=cds118;Name=CBG27874.1;Parent=gene119;Note=possibly truncated at N-terminus relative to database match;Dbxref=UniProtKB%2FTrEMBL:D3H5E7,NCBI_GP:CBG27874.1;gbkey=CDS;product=conserved hypothetical protein;protein_id=CBG27874.1;transl_table=11
+FN554767.1	EMBL	gene	95044	95232	.	-	.	ID=gene120;Name=EC042_pAA126;gbkey=Gene;locus_tag=EC042_pAA126
+FN554767.1	EMBL	CDS	95044	95232	.	-	0	ID=cds119;Name=CBG27875.1;Parent=gene120;Dbxref=UniProtKB%2FTrEMBL:D3H5E8,NCBI_GP:CBG27875.1;gbkey=CDS;product=conserved hypothetical protein;protein_id=CBG27875.1;transl_table=11
+FN554767.1	EMBL	gene	95395	95730	.	-	.	ID=gene121;Name=EC042_pAA127;gbkey=Gene;locus_tag=EC042_pAA127
+FN554767.1	EMBL	CDS	95395	95730	.	-	0	ID=cds120;Name=CBG27876.1;Parent=gene121;Dbxref=UniProtKB%2FTrEMBL:D3H5E9,NCBI_GP:CBG27876.1;gbkey=CDS;product=conserved hypothetical protein;protein_id=CBG27876.1;transl_table=11
+FN554767.1	EMBL	region	95401	95460	.	-	.	ID=id179;Note=1 probable transmembrane helix predicted for EC042_pAA127 by TMHMM2.0 at aa 91-110;gbkey=misc_feature
+FN554767.1	EMBL	gene	95782	96204	.	-	.	ID=gene122;Name=EC042_pAA128;gbkey=Gene;locus_tag=EC042_pAA128
+FN554767.1	EMBL	CDS	95782	96204	.	-	0	ID=cds121;Name=CBG27877.1;Parent=gene122;Dbxref=InterPro:IPR009811,UniProtKB%2FTrEMBL:D3H5F0,NCBI_GP:CBG27877.1;gbkey=CDS;product=conserved hypothetical protein;protein_id=CBG27877.1;transl_table=11
+FN554767.1	EMBL	gene	96251	96676	.	-	.	ID=gene123;Name=EC042_pAA129;gbkey=Gene;locus_tag=EC042_pAA129
+FN554767.1	EMBL	CDS	96251	96676	.	-	0	ID=cds122;Name=CBG27878.1;Parent=gene123;Dbxref=InterPro:IPR004914,UniProtKB%2FTrEMBL:D3H5F1,NCBI_GP:CBG27878.1;gbkey=CDS;product=putative antirestriction protein;protein_id=CBG27878.1;transl_table=11
+FN554767.1	EMBL	region	96254	96553	.	-	.	ID=id180;Note=HMMPfam hit to PF03230%2C Antirestrict%2C score 1.9e-62;gbkey=misc_feature
+FN554767.1	EMBL	gene	96852	97117	.	-	.	ID=gene124;Name=EC042_pAA130;gbkey=Gene;is_ordered=true;locus_tag=EC042_pAA130;part=1%2F3;pseudo=true
+FN554767.1	EMBL	gene	96758	96850	.	-	.	ID=gene124;Name=EC042_pAA130;gbkey=Gene;is_ordered=true;locus_tag=EC042_pAA130;part=2%2F3;pseudo=true
+FN554767.1	EMBL	gene	96649	96747	.	-	.	ID=gene124;Name=EC042_pAA130;gbkey=Gene;is_ordered=true;locus_tag=EC042_pAA130;part=3%2F3;pseudo=true
+FN554767.1	EMBL	CDS	97037	97117	.	-	0	ID=cds123;Parent=gene124;Dbxref=PSEUDO:CBG27879.1;gbkey=CDS;product=conserved hypothetical protein %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	CDS	96852	97037	.	-	0	ID=cds123;Parent=gene124;Dbxref=PSEUDO:CBG27879.1;gbkey=CDS;product=conserved hypothetical protein %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	CDS	96758	96850	.	-	0	ID=cds123;Parent=gene124;Dbxref=PSEUDO:CBG27879.1;gbkey=CDS;product=conserved hypothetical protein %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	CDS	96649	96747	.	-	0	ID=cds123;Parent=gene124;Dbxref=PSEUDO:CBG27879.1;gbkey=CDS;product=conserved hypothetical protein %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	region	96852	96995	.	-	.	ID=id181;Note=HMMPfam hit to PF07339%2C DUF1472%2C score 8.4e-46;gbkey=misc_feature;part=1%2F3
+FN554767.1	EMBL	region	96758	96850	.	-	.	ID=id181;Note=HMMPfam hit to PF07339%2C DUF1472%2C score 8.4e-46;gbkey=misc_feature;part=2%2F3
+FN554767.1	EMBL	region	96694	96747	.	-	.	ID=id181;Note=HMMPfam hit to PF07339%2C DUF1472%2C score 8.4e-46;gbkey=misc_feature;part=3%2F3
+FN554767.1	EMBL	gene	97092	97862	.	-	.	ID=gene125;Name=EC042_pAA131;gbkey=Gene;locus_tag=EC042_pAA131
+FN554767.1	EMBL	CDS	97092	97862	.	-	0	ID=cds124;Name=CBG27880.1;Parent=gene125;Dbxref=UniProtKB%2FTrEMBL:D3H5F3,NCBI_GP:CBG27880.1;gbkey=CDS;product=conserved hypothetical protein;protein_id=CBG27880.1;transl_table=11
+FN554767.1	EMBL	gene	97907	98341	.	-	.	ID=gene126;Name=EC042_pAA132;gbkey=Gene;locus_tag=EC042_pAA132
+FN554767.1	EMBL	CDS	97907	98341	.	-	0	ID=cds125;Name=CBG27881.1;Parent=gene126;Dbxref=InterPro:IPR009811,UniProtKB%2FTrEMBL:D3H5F4,NCBI_GP:CBG27881.1;gbkey=CDS;product=conserved hypothetical protein;protein_id=CBG27881.1;transl_table=11
+FN554767.1	EMBL	region	97928	98341	.	-	.	ID=id182;Note=HMMPfam hit to PF07128%2C DUF1380%2C score 4.6e-114;gbkey=misc_feature
+FN554767.1	EMBL	gene	98355	98576	.	-	.	ID=gene127;Name=EC042_pAA133;gbkey=Gene;locus_tag=EC042_pAA133
+FN554767.1	EMBL	CDS	98355	98576	.	-	0	ID=cds126;Name=CBG27882.1;Parent=gene127;Dbxref=UniProtKB%2FTrEMBL:D3H5F5,NCBI_GP:CBG27882.1;gbkey=CDS;product=conserved hypothetical protein;protein_id=CBG27882.1;transl_table=11
+FN554767.1	EMBL	gene	98577	99260	.	-	.	ID=gene128;Name=EC042_pAA134;gbkey=Gene;locus_tag=EC042_pAA134
+FN554767.1	EMBL	CDS	98577	99260	.	-	0	ID=cds127;Name=CBG27883.1;Parent=gene128;Dbxref=GOA:D3H5F6,InterPro:IPR001091,InterPro:IPR002052,InterPro:IPR002941,UniProtKB%2FTrEMBL:D3H5F6,NCBI_GP:CBG27883.1;gbkey=CDS;product=DNA methylase;protein_id=CBG27883.1;transl_table=11
+FN554767.1	EMBL	region	98652	99200	.	-	.	ID=id183;Note=HMMPfam hit to PF01555%2C N6_N4_Mtase%2C score 1.5e-52;gbkey=misc_feature
+FN554767.1	EMBL	region	99171	99191	.	-	.	ID=id184;Note=PS00092 N-6 Adenine-specific DNA methylases signature.;gbkey=misc_feature
+FN554767.1	EMBL	gene	99337	99595	.	-	.	ID=gene129;Name=EC042_pAA135;gbkey=Gene;locus_tag=EC042_pAA135;pseudo=true
+FN554767.1	EMBL	CDS	99515	99595	.	-	0	ID=cds128;Parent=gene129;gbkey=CDS;product=conserved hypothetical protein %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	CDS	99337	99513	.	-	0	ID=cds128;Parent=gene129;gbkey=CDS;product=conserved hypothetical protein %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	region	99604	99672	.	-	.	ID=id185;Note=1 probable transmembrane helix predicted for EC042_pAA135 by TMHMM2.0 at aa 2-24;gbkey=misc_feature
+FN554767.1	EMBL	gene	99778	100740	.	+	.	ID=gene130;Name=parM;gbkey=Gene;gene=parM;locus_tag=EC042_pAA136
+FN554767.1	EMBL	CDS	99778	100740	.	+	0	ID=cds129;Name=CBG27885.1;Parent=gene130;Dbxref=InterPro:IPR009440,UniProtKB%2FTrEMBL:D3H5F7,NCBI_GP:CBG27885.1;gbkey=CDS;gene=parM;product=plasmid segregation protein;protein_id=CBG27885.1;transl_table=11
+FN554767.1	EMBL	region	99778	100731	.	+	.	ID=id186;Note=HMMPfam hit to PF06406%2C StbA%2C score 2.9e-237;gbkey=misc_feature;gene=parM
+FN554767.1	EMBL	gene	100743	101093	.	+	.	ID=gene131;Name=stbB;gbkey=Gene;gene=stbB;locus_tag=EC042_pAA137
+FN554767.1	EMBL	CDS	100743	101093	.	+	0	ID=cds130;Name=CBG27886.1;Parent=gene131;Dbxref=InterPro:IPR019720,UniProtKB%2FTrEMBL:D3H5F8,NCBI_GP:CBG27886.1;gbkey=CDS;gene=stbB;product=plasmid partition protein;protein_id=CBG27886.1;transl_table=11
+FN554767.1	EMBL	gene	101350	101592	.	+	.	ID=gene132;Name=pinQ;gbkey=Gene;gene=pinQ;locus_tag=EC042_pAA139;pseudo=true
+FN554767.1	EMBL	CDS	101350	101592	.	+	0	ID=cds131;Parent=gene132;Dbxref=PSEUDO:CBG27887.1;gbkey=CDS;gene=pinQ;product=putative DNA invertase %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	region	101350	101436	.	+	.	ID=id187;Note=HMMPfam hit to PF00239%2C Resolvase%2C score 8.1e-09;gbkey=misc_feature;gene=pinQ
+FN554767.1	EMBL	region	101440	101574	.	+	.	ID=id188;Note=HMMPfam hit to PF02796%2C HTH_7%2C score 2.2e-11;gbkey=misc_feature;gene=pinQ
+FN554767.1	EMBL	gene	101635	101793	.	+	.	ID=gene133;Name=EC042_pAA140;gbkey=Gene;locus_tag=EC042_pAA140;pseudo=true
+FN554767.1	EMBL	CDS	101635	101793	.	+	0	ID=cds132;Parent=gene133;gbkey=CDS;product=transposase %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	gene	101775	101942	.	+	.	ID=gene134;Name=EC042_pAA141;gbkey=Gene;locus_tag=EC042_pAA141
+FN554767.1	EMBL	CDS	101775	101942	.	+	0	ID=cds133;Name=CBG27889.1;Parent=gene134;Note=no significant database matches;Dbxref=UniProtKB%2FTrEMBL:D3H5G0,NCBI_GP:CBG27889.1;gbkey=CDS;product=hypothetical protein;protein_id=CBG27889.1;transl_table=11
+FN554767.1	EMBL	gene	101942	102940	.	+	.	ID=gene135;Name=eitA;gbkey=Gene;gene=eitA;locus_tag=EC042_pAA142
+FN554767.1	EMBL	CDS	101942	102940	.	+	0	ID=cds134;Name=CBG27890.1;Parent=gene135;Dbxref=GOA:D3H5G1,InterPro:IPR002491,UniProtKB%2FTrEMBL:D3H5G1,NCBI_GP:CBG27890.1;gbkey=CDS;gene=eitA;product=iron ABC transporter%2C substrate-binding protein;protein_id=CBG27890.1;transl_table=11
+FN554767.1	EMBL	region	101942	102001	.	+	.	ID=id189;Note=Signal peptide predicted for EC042_pAA142 by SignalP 2.0 HMM %28Signal peptide probability 1.000%29 with cleavage site probability 0.947 between residues 20 and 21;gbkey=misc_feature;gene=eitA
+FN554767.1	EMBL	region	101954	102022	.	+	.	ID=id190;Note=1 probable transmembrane helix predicted for EC042_pAA142 by TMHMM2.0 at aa 5-27;gbkey=misc_feature;gene=eitA
+FN554767.1	EMBL	region	102059	102865	.	+	.	ID=id191;Note=HMMPfam hit to PF01497%2C Peripla_BP_2%2C score 4.8e-22;gbkey=misc_feature;gene=eitA
+FN554767.1	EMBL	gene	102940	103227	.	+	.	ID=gene136;Name=eitB;gbkey=Gene;gene=eitB;locus_tag=EC042_pAA143;pseudo=true
+FN554767.1	EMBL	CDS	102940	103227	.	+	0	ID=cds135;Parent=gene136;gbkey=CDS;gene=eitB;product=putative iron ABC transporter%2Cpermease protein %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	region	103009	103227	.	+	.	ID=id192;Note=HMMPfam hit to PF01032%2C FecCD%2C score 5.8e-10;gbkey=misc_feature;gene=eitB
+FN554767.1	EMBL	gene	103230	103739	.	+	.	ID=gene137;Name=eitC;gbkey=Gene;gene=eitC;locus_tag=EC042_pAA144;pseudo=true
+FN554767.1	EMBL	CDS	103230	103739	.	+	0	ID=cds136;Parent=gene137;gbkey=CDS;gene=eitC;product=iron ABC transporter%2C ATP-binding protein %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	region	103245	103610	.	+	.	ID=id193;Note=HMMPfam hit to PF00005%2C ABC_tran%2C score 2e-28;gbkey=misc_feature;gene=eitC
+FN554767.1	EMBL	gene	103751	104983	.	+	.	ID=gene138;Name=eitD;gbkey=Gene;gene=eitD;locus_tag=EC042_pAA145
+FN554767.1	EMBL	CDS	103751	104983	.	+	0	ID=cds137;Name=CBG27893.1;Parent=gene138;Dbxref=GOA:D3H5G2,InterPro:IPR011701,InterPro:IPR016196,InterPro:IPR020846,UniProtKB%2FTrEMBL:D3H5G2,NCBI_GP:CBG27893.1;gbkey=CDS;gene=eitD;product=major facilitator superfamily protein;protein_id=CBG27893.1;transl_table=11
+FN554767.1	EMBL	region	103793	103861	.	+	.	ID=id194;Note=11 probable transmembrane helices predicted for EC042_pAA145 by TMHMM2.0 at aa 15-37%2C 44-66%2C 104-126%2C147-169%2C 173-195%2C 215-237%2C 252-274%2C 281-303%2C 308-330%2C350-372 and 382-404;gbkey=misc_feature;gene=eitD;part=1%2F11
+FN554767.1	EMBL	region	103880	103948	.	+	.	ID=id194;Note=11 probable transmembrane helices predicted for EC042_pAA145 by TMHMM2.0 at aa 15-37%2C 44-66%2C 104-126%2C147-169%2C 173-195%2C 215-237%2C 252-274%2C 281-303%2C 308-330%2C350-372 and 382-404;gbkey=misc_feature;gene=eitD;part=2%2F11
+FN554767.1	EMBL	region	104060	104128	.	+	.	ID=id194;Note=11 probable transmembrane helices predicted for EC042_pAA145 by TMHMM2.0 at aa 15-37%2C 44-66%2C 104-126%2C147-169%2C 173-195%2C 215-237%2C 252-274%2C 281-303%2C 308-330%2C350-372 and 382-404;gbkey=misc_feature;gene=eitD;part=3%2F11
+FN554767.1	EMBL	region	104189	104257	.	+	.	ID=id194;Note=11 probable transmembrane helices predicted for EC042_pAA145 by TMHMM2.0 at aa 15-37%2C 44-66%2C 104-126%2C147-169%2C 173-195%2C 215-237%2C 252-274%2C 281-303%2C 308-330%2C350-372 and 382-404;gbkey=misc_feature;gene=eitD;part=4%2F11
+FN554767.1	EMBL	region	104267	104335	.	+	.	ID=id194;Note=11 probable transmembrane helices predicted for EC042_pAA145 by TMHMM2.0 at aa 15-37%2C 44-66%2C 104-126%2C147-169%2C 173-195%2C 215-237%2C 252-274%2C 281-303%2C 308-330%2C350-372 and 382-404;gbkey=misc_feature;gene=eitD;part=5%2F11
+FN554767.1	EMBL	region	104393	104461	.	+	.	ID=id194;Note=11 probable transmembrane helices predicted for EC042_pAA145 by TMHMM2.0 at aa 15-37%2C 44-66%2C 104-126%2C147-169%2C 173-195%2C 215-237%2C 252-274%2C 281-303%2C 308-330%2C350-372 and 382-404;gbkey=misc_feature;gene=eitD;part=6%2F11
+FN554767.1	EMBL	region	104504	104572	.	+	.	ID=id194;Note=11 probable transmembrane helices predicted for EC042_pAA145 by TMHMM2.0 at aa 15-37%2C 44-66%2C 104-126%2C147-169%2C 173-195%2C 215-237%2C 252-274%2C 281-303%2C 308-330%2C350-372 and 382-404;gbkey=misc_feature;gene=eitD;part=7%2F11
+FN554767.1	EMBL	region	104591	104659	.	+	.	ID=id194;Note=11 probable transmembrane helices predicted for EC042_pAA145 by TMHMM2.0 at aa 15-37%2C 44-66%2C 104-126%2C147-169%2C 173-195%2C 215-237%2C 252-274%2C 281-303%2C 308-330%2C350-372 and 382-404;gbkey=misc_feature;gene=eitD;part=8%2F11
+FN554767.1	EMBL	region	104672	104740	.	+	.	ID=id194;Note=11 probable transmembrane helices predicted for EC042_pAA145 by TMHMM2.0 at aa 15-37%2C 44-66%2C 104-126%2C147-169%2C 173-195%2C 215-237%2C 252-274%2C 281-303%2C 308-330%2C350-372 and 382-404;gbkey=misc_feature;gene=eitD;part=9%2F11
+FN554767.1	EMBL	region	104798	104866	.	+	.	ID=id194;Note=11 probable transmembrane helices predicted for EC042_pAA145 by TMHMM2.0 at aa 15-37%2C 44-66%2C 104-126%2C147-169%2C 173-195%2C 215-237%2C 252-274%2C 281-303%2C 308-330%2C350-372 and 382-404;gbkey=misc_feature;gene=eitD;part=10%2F11
+FN554767.1	EMBL	region	104894	104962	.	+	.	ID=id194;Note=11 probable transmembrane helices predicted for EC042_pAA145 by TMHMM2.0 at aa 15-37%2C 44-66%2C 104-126%2C147-169%2C 173-195%2C 215-237%2C 252-274%2C 281-303%2C 308-330%2C350-372 and 382-404;gbkey=misc_feature;gene=eitD;part=11%2F11
+FN554767.1	EMBL	region	103799	104869	.	+	.	ID=id195;Note=HMMPfam hit to PF07690%2C MFS_1%2C score 2.8e-31;gbkey=misc_feature;gene=eitD
+FN554767.1	EMBL	gene	105061	105276	.	-	.	ID=gene139;Name=imm;gbkey=Gene;gene=imm;locus_tag=EC042_pAA146;pseudo=true
+FN554767.1	EMBL	CDS	105061	105276	.	-	0	ID=cds138;Parent=gene139;Dbxref=PSEUDO:CBG27894.1;gbkey=CDS;gene=imm;product=colicin-e2 immunity protein %28microcin-e2 immunity protein%29%28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	region	105067	105276	.	-	.	ID=id196;Note=HMMPfam hit to PF01320%2C Colicin_Pyocin%2C score 3.5e-41;gbkey=misc_feature;gene=imm
+FN554767.1	EMBL	gene	105695	105994	.	-	.	ID=gene140;Name=EC042_pAA147;gbkey=Gene;locus_tag=EC042_pAA147
+FN554767.1	EMBL	CDS	105695	105994	.	-	0	ID=cds139;Name=CBG27895.1;Parent=gene140;Dbxref=InterPro:IPR007712,UniProtKB%2FTrEMBL:D3H5G4,NCBI_GP:CBG27895.1;gbkey=CDS;product=putative plasmid stabilisation system protein;protein_id=CBG27895.1;transl_table=11
+FN554767.1	EMBL	region	105710	105982	.	-	.	ID=id197;Note=HMMPfam hit to PF05016%2C Plasmid_stabil%2C score 3.5e-12;gbkey=misc_feature
+FN554767.1	EMBL	gene	105984	106247	.	-	.	ID=gene141;Name=EC042_pAA148;gbkey=Gene;locus_tag=EC042_pAA148
+FN554767.1	EMBL	CDS	105984	106247	.	-	0	ID=cds140;Name=CBG27896.1;Parent=gene141;Dbxref=UniProtKB%2FTrEMBL:D3H5G5,NCBI_GP:CBG27896.1;gbkey=CDS;product=putative plasmid stabilisation system protein;protein_id=CBG27896.1;transl_table=11
+FN554767.1	EMBL	region	105990	105998	.	-	.	ID=id198;Note=This hit extended beyond the end of the feature by 1 aa and was clipped.%3B%7EPS00014 Endoplasmic reticulum targeting sequence.;gbkey=misc_feature
+FN554767.1	EMBL	gene	106354	106614	.	-	.	ID=gene142;Name=EC042_pAA149;gbkey=Gene;locus_tag=EC042_pAA149
+FN554767.1	EMBL	CDS	106354	106614	.	-	0	ID=cds141;Name=CBG27897.1;Parent=gene142;Dbxref=UniProtKB%2FTrEMBL:D3H5G6,NCBI_GP:CBG27897.1;gbkey=CDS;product=conserved hypothetical protein;protein_id=CBG27897.1;transl_table=11
+FN554767.1	EMBL	gene	106706	106954	.	-	.	ID=gene143;Name=repA4;gbkey=Gene;gene=repA4;locus_tag=EC042_pAA150;pseudo=true
+FN554767.1	EMBL	CDS	106880	106954	.	-	0	ID=cds142;Parent=gene143;Dbxref=PSEUDO:CBG27898.1;gbkey=CDS;gene=repA4;product=plasmid replication %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	CDS	106810	106878	.	-	0	ID=cds142;Parent=gene143;Dbxref=PSEUDO:CBG27898.1;gbkey=CDS;gene=repA4;product=plasmid replication %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	CDS	106706	106807	.	-	0	ID=cds142;Parent=gene143;Dbxref=PSEUDO:CBG27898.1;gbkey=CDS;gene=repA4;product=plasmid replication %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	gene	107317	108174	.	-	.	ID=gene144;Name=repA1;gbkey=Gene;gene=repA1;locus_tag=EC042_pAA152
+FN554767.1	EMBL	CDS	107317	108174	.	-	0	ID=cds143;Name=CBG27899.1;Parent=gene144;Dbxref=GOA:D3H586,InterPro:IPR003446,InterPro:IPR017837,UniProtKB%2FTrEMBL:D3H586,NCBI_GP:CBG27899.1;gbkey=CDS;gene=repA1;product=plasmid replication;protein_id=CBG27899.1;transl_table=11
+FN554767.1	EMBL	region	107368	108153	.	-	.	ID=id199;Note=HMMPfam hit to PF02387%2C IncFII_repA%2C score 7e-08;gbkey=misc_feature;gene=repA1
+FN554767.1	EMBL	gene	108474	108731	.	-	.	ID=gene145;Name=repA2;gbkey=Gene;gene=repA2;locus_tag=EC042_pAA153
+FN554767.1	EMBL	CDS	108474	108731	.	-	0	ID=cds144;Name=CBG27900.1;Parent=gene145;Dbxref=InterPro:IPR019661,UniProtKB%2FTrEMBL:D3H5G9,NCBI_GP:CBG27900.1;gbkey=CDS;gene=repA2;product=replication regulatory protein 1;protein_id=CBG27900.1;transl_table=11
+FN554767.1	EMBL	region	108853	109491	.	+	.	ID=id200;Note=hit to IS1414 1..639 score: 3150 percent id: 99.22;gbkey=misc_feature
+FN554767.1	EMBL	gene	108925	109488	.	+	.	ID=gene146;Name=EC042_pAA154;gbkey=Gene;locus_tag=EC042_pAA154;pseudo=true
+FN554767.1	EMBL	CDS	108925	109488	.	+	0	ID=cds145;Parent=gene146;Dbxref=PSEUDO:CBG27901.1;gbkey=CDS;product=transposase %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	region	108925	109485	.	+	.	ID=id201;Note=HMMPfam hit to PF00872%2C Transposase_mut%2C score 4.4e-53;gbkey=misc_feature
+FN554767.1	EMBL	repeat_region	109486	110727	.	-	.	ID=id202;Note=hit to IS3411 69..1310 score: 5994 percent id: 98.07%3B%7EIS911 element;gbkey=repeat_region
+FN554767.1	EMBL	gene	109528	110418	.	-	.	ID=gene147;Name=EC042_pAA155;gbkey=Gene;locus_tag=EC042_pAA155
+FN554767.1	EMBL	CDS	109528	110418	.	-	0	ID=cds146;Name=CBG27902.1;Parent=gene147;Dbxref=GOA:D3H582,InterPro:IPR001584,InterPro:IPR012337,UniProtKB%2FTrEMBL:D3H582,NCBI_GP:CBG27902.1;gbkey=CDS;product=transposase;protein_id=CBG27902.1;transl_table=11
+FN554767.1	EMBL	region	109570	110046	.	-	.	ID=id203;Note=HMMPfam hit to PF00665%2C rve%2C score 3.6e-45;gbkey=misc_feature
+FN554767.1	EMBL	gene	110415	110723	.	-	.	ID=gene148;Name=EC042_pAA156;gbkey=Gene;locus_tag=EC042_pAA156;pseudo=true
+FN554767.1	EMBL	CDS	110415	110723	.	-	0	ID=cds147;Parent=gene148;gbkey=CDS;product=transposase %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	region	110472	110723	.	-	.	ID=id204;Note=HMMPfam hit to PF01527%2C Transposase_8%2C score 4e-09;gbkey=misc_feature
+FN554767.1	EMBL	region	110586	110651	.	-	.	ID=id205;Note=Predicted helix-turn-helix motif with score 1328.000%2C SD 3.71 at aa 45-66%2C sequence AAICSIAPKIGCTPETLRVWVR;gbkey=misc_feature
+FN554767.1	EMBL	repeat_region	110725	112034	.	-	.	ID=id206;Note=hit to IS1203 1..1310 score: 6091 percent id: 96.11%3B%7EIS911 element;gbkey=repeat_region
+FN554767.1	EMBL	gene	110767	111657	.	-	.	ID=gene149;Name=EC042_pAA157;gbkey=Gene;locus_tag=EC042_pAA157
+FN554767.1	EMBL	CDS	110767	111657	.	-	0	ID=cds148;Name=CBG27904.1;Parent=gene149;Dbxref=GOA:D3H5H2,InterPro:IPR001584,InterPro:IPR012337,UniProtKB%2FTrEMBL:D3H5H2,NCBI_GP:CBG27904.1;gbkey=CDS;product=transposase;protein_id=CBG27904.1;transl_table=11
+FN554767.1	EMBL	region	110809	111285	.	-	.	ID=id207;Note=HMMPfam hit to PF00665%2C rve%2C score 2.9e-45;gbkey=misc_feature
+FN554767.1	EMBL	gene	111654	111980	.	-	.	ID=gene150;Name=EC042_pAA158;gbkey=Gene;locus_tag=EC042_pAA158
+FN554767.1	EMBL	CDS	111654	111980	.	-	0	ID=cds149;Name=CBG27905.1;Parent=gene150;Dbxref=GOA:D3H5H3,InterPro:IPR002514,UniProtKB%2FTrEMBL:D3H5H3,NCBI_GP:CBG27905.1;gbkey=CDS;product=transposase;protein_id=CBG27905.1;transl_table=11
+FN554767.1	EMBL	region	111711	111971	.	-	.	ID=id208;Note=HMMPfam hit to PF01527%2C Transposase_8%2C score 4.5e-13;gbkey=misc_feature
+FN554767.1	EMBL	region	111825	111890	.	-	.	ID=id209;Note=Predicted helix-turn-helix motif with score 1711.000%2C SD 5.01 at aa 31-52%2C sequence ATICSIAPKIGCTPETLRVWVR;gbkey=misc_feature
+FN554767.1	EMBL	region	112033	112680	.	-	.	ID=id210;Note=hit to IS1414 1..649 score: 3203 percent id: 99.38;gbkey=misc_feature
+FN554767.1	EMBL	gene	112039	112608	.	-	.	ID=gene151;Name=EC042_pAA159;gbkey=Gene;locus_tag=EC042_pAA159;pseudo=true
+FN554767.1	EMBL	CDS	112039	112608	.	-	0	ID=cds150;Parent=gene151;gbkey=CDS;product=transposase %28pseudogene%29;pseudo=true;transl_table=11
+FN554767.1	EMBL	region	112039	112608	.	-	.	ID=id211;Note=HMMPfam hit to PF00872%2C Transposase_mut%2C score 4e-55;gbkey=misc_feature
+FN554767.1	EMBL	gene	112802	113059	.	+	.	ID=gene152;Name=repA2;gbkey=Gene;gene=repA2;locus_tag=EC042_pAA160
+FN554767.1	EMBL	CDS	112802	113059	.	+	0	ID=cds151;Name=CBG27907.1;Parent=gene152;Dbxref=InterPro:IPR019661,UniProtKB%2FTrEMBL:D3H5G9,NCBI_GP:CBG27907.1;gbkey=CDS;gene=repA2;product=replication regulatory protein 2;protein_id=CBG27907.1;transl_table=11
+###

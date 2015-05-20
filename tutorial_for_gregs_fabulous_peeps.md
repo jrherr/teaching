@@ -46,7 +46,7 @@ knowing how to use the shell is transformative.
 
 ![Automation](https://edamame-course.github.io/docs/img/shell/gvng.jpg)
 
-  Unix is user-friendly. It's just very selective about who its friends are.
+Unix is user-friendly. It's just very selective about who its friends are.
 
 Today we're going to go through how to access Unix/Linux and some of the basic
 shell commands.
@@ -97,25 +97,37 @@ Open the shell
 
 Enter the command:
 
-    git clone https://github.com/edamame-course/edamame-data.git
+```
+git clone https://github.com/edamame-course/edamame-data.git
+```
 
 This command will grab all of the data needed for this workshop from
 the internet.  (We're not going to talk about git right now, but it's a tool for
 doing version control.)
 
 Now let's go in to that directory
-    cd edamame-data
+```
+cd edamame-data
+```
+
 This stands for 'change directory'
 
 In this directory, there should be some things we just downloaded.
 Let's check. Type:
-    ls
-ls stands for 'list' and it lists the contents of a directory.
+
+```
+ls
+```
+
+`ls` stands for 'list' and it lists the contents of a directory.
 
 There's a few directories there, but not too much. Let's go look in the shell
 lesson.
-    cd shell
-    ls
+
+```
+cd shell
+ls
+```
 
 You can also use the command `ls -l` to see whether items in a
 directory are files or directories. `ls -l` gives a lot more
@@ -163,8 +175,12 @@ you are on one of the branches of that tree, your home directory (/home/username
 
 Now let's go do that same navigation at the command line.
 
-Type
-    cd
+Type:
+
+```
+cd
+```
+
 This put's you in your home directory. This folder here.
 
 Now using `cd` and `ls`, go in to the 'shell' directory and list its contents.
@@ -173,7 +189,11 @@ Let's also check to see where we are. Sometimes when we're wandering around
 in the file system, it's easy to lose track of where we are and get lost.
 
 If you want to know what directory you're currently in, type
-    pwd
+
+```
+pwd
+```
+
 This stands for 'print working directory'. The directory you're currently
 working in.
 
@@ -183,9 +203,12 @@ type 'edamame-data'? Try it and see what happens.
 To go 'back up a level' we need to use `..`
 
 Type
-    cd ..
 
-Now do `ls` and `pwd`. See now that we went back up in to the 'edamame'
+```
+cd ..
+```
+
+\Now do `ls` and `pwd`. See now that we went back up in to the 'edamame'
 directory. `..` just means go back up a level.
 
 ### Arguments
@@ -198,7 +221,9 @@ know what the options are to particular commands?
 Most commonly used shell programs have a manual. You can access the
 manual using the `man` program. Try entering:
 
-    man ls
+```
+man ls
+```
 
 This will open the manual page for `ls`. Use the space key to go
 forward and b to go backwards. When you are done reading, just hit `q`
@@ -220,19 +245,25 @@ home directory if you are not already there.
 
 Type:
 
-    cd
+```
+cd
+```
 
 Then enter the command:
 
-    ls edamame-data
+```
+ls edamame-data
+```
 
 This will list the contents of the `edamame-data` directory without
 you having to navigate there.
 
 The `cd` command works in a similar way. Try entering:
 
-    cd
-    cd edamame-data/shell/hidden
+```
+cd
+cd edamame-data/shell/hidden
+```
 
 and you will jump directly to `hidden` without having to go through
 the intermediate directory.
@@ -246,7 +277,9 @@ hierarchy. The full path tells you where a directory is in that
 hierarchy. Navigate to the home directory. Now, enter the `pwd`
 command and you should see:
 
-    /home/username
+```
+/home/username
+```
 
 which is the full name of your home directory. This tells you that you
 are in a directory called `username`, which sits inside a directory called
@@ -257,12 +290,16 @@ directory in `home` which is a directory in `/`.
 
 Now enter the following command:
 
-    cd /home/username/edamame-data/shell/hidden
+```
+cd /home/username/edamame-data/shell/hidden
+```
 
 This jumps to `hidden`. Now go back to the home directory (cd). We saw
 earlier that the command:
 
-    cd edamame-data/shell/hidden
+```
+cd edamame-data/shell/hidden
+```
 
 had the same effect - it took us to the `hidden` directory. But,
 instead of specifying the full path
@@ -297,24 +334,31 @@ home directory is very common. So, in the shell the tilde character,
 ""~"", is a shortcut for your home directory. Navigate to the `edamame`
 directory:
 
-    cd
-    cd edamame-data
-    cd shell
+```
+cd
+cd shell
+```
 
 Then enter the command:
 
-    ls ~
+```
+ls ~
+```
 
 This prints the contents of your home directory, without you having to
 type the full path. The shortcut `..` always refers to the directory
 above your current directory. Thus:
 
-    ls ..
+```
+ls ..
+```
 
 prints the contents of the `/home/username/edamame-data`. You can chain
 these together, so:
 
-    ls ../../
+```
+ls ../../
+```
 
 prints the contents of `/home/username` which is your home
 directory. Finally, the special directory `.` always refers to your
@@ -335,12 +379,16 @@ lot of time. When you start typing out the name of a directory, then
 hit the tab key, the shell will try to fill in the rest of the
 directory name. For example, enter:
 
-    cd e<tab>
+```
+cd e<tab>
+```
 
 The shell will fill in the rest of the directory name for
 `edamame-data`. Now go to edamame-data/shell/MiSeq
 
-    ls F3D<tab><tab>
+```
+ls F3D<tab><tab>
+```
 
 When you hit the first tab, nothing happens. The reason is that there
 are multiple directories in the home directory which start with
@@ -365,7 +413,9 @@ is very useful.
 
 You can also review your recent commands with the `history` command.  Just enter:
 
-    history
+```
+history
+```
 
 to see a numbered list of recent commands, including this just issues
 `history` command.  You can reuse one of these commands directly by
@@ -373,15 +423,17 @@ referring to the number of that command.
 
 If your history looked like this:
 
-    259  ls \*
-    260  ls /usr/bin/\*.sh
-    261  ls \*R1\*fastq
+```
+259  ls *
+260  ls /usr/bin/*.sh
+261  ls *R1*fastq
+```
 
 then you could repeat command #260 by simply entering:
 
-    !260
-
-(that's an exclamation mark).
+```
+!260
+```
 
 
 ### Examining Files
@@ -392,7 +444,9 @@ contents of directories, but how do we look at the contents of files?
 The easiest way to examine a file is to just print out all of the
 contents using the program `cat`. Enter the following command:
 
-    cat F3D0_S188_L001_R1_001.fastq
+```
+cat F3D0_S188_L001_R1_001.fastq
+```
 
 This prints out the contents of the `F3D0_S188_L001_R1_001.fastq` file.
 
@@ -400,13 +454,16 @@ Make sure we're in the right place for the next set of the lessons. We
 want to be in the `shell` directory. Check if you're there with `pwd`
 and if not navigate there. One way to do that would be
 
-    cd ~/edamame-data/shell/MiSeq
+```
+cd ~/edamame-data/shell/MiSeq
+```
 
 `cat` is a terrific program, but when the file is really big, it can
 be annoying to use. The program, `less`, is useful for this
 case. Enter the following command:
-
-    less F3D0_S188_L001_R1_001.fastq
+```
+less F3D0_S188_L001_R1_001.fastq
+```
 
 `less` opens the file, and lets you navigate through it. The commands
 are identical to the `man` program.
@@ -414,7 +471,7 @@ are identical to the `man` program.
 **Some commands in `less`**
 
 | key     | action |
-| ------- | ---------- |
+|: ------- :|: ---------- :|
 | "space" | to go forward |
 |  "b"    | to go backwarsd |
 |  "g"    | to go to the beginning |
@@ -446,16 +503,19 @@ to see the beginning or end of the file, or see how it's formatted.
 The commands are `head` and `tail` and they just let you look at
 the beginning and end of a file respectively.
 
+```
 head F3D0_S188_L001_R1_001.fastq
 tail F3D0_S188_L001_R1_001.fastq
+```
 
 The `-n` option to either of these commands can be used to print the
 first or last `n` lines of a file. To print the first/last line of the
 file use:
 
+```
 head -n 1 F3D0_S188_L001_R1_001.fastq
 tail -n 1 F3D0_S188_L001_R1_001.fastq
-
+```
 
 ### Searching files
 
@@ -466,26 +526,21 @@ Let's give it a try!
 
 Let's search for that sequence 1101:14341 in the F3D0_S188_L001_R1_001.fastq file.
 
-    grep 1101:14341 F3D0_S188_L001_R1_001.fastq
+```
+grep 1101:14341 F3D0_S188_L001_R1_001.fastq
+```
 
 We get back the whole line that had '1101:14341' in it. What if we wanted all
 four lines, the whole part of that FASTQ sequence, back instead.
 
-    grep -A 3 1101:14341 F3D0_S188_L001_R1_001.fastq
+```
+grep -A 3 1101:14341 F3D0_S188_L001_R1_001.fastq
+```
 
 The `-A` flag stands for "after match" so it's returning the line that
 matches plus the three after it. The `-B` flag returns that number of lines
 before the match.
 
-** Exercise **
-
-Search for the sequence 'TTATCCGGATTTATTGGGTTTAAAGGGT' in the
-F3D0_S188_L001_R1_001.fastq file and in the output have the
-sequence name and the sequence. e.g.  
-@M00967:43:000000000-A3JHG:1:2114:11799:28499 1:N:0:188  
-TACGGAGGATGCGAGCGTTATCCGGATTTATTGGGTTTAAAGGGTGCGTAGGCGGGATGCAG
-
-Search for that sequence in all the FASTQ files.
 
 ### Redirection
 
@@ -504,7 +559,9 @@ The redirection command for putting something in a file is `>`
 Let's try it out and put all the sequences that contain 'TTATCCGGATTTATTGGGTTTAAAGGGT'
 from all the files in to another file called 'good-data.txt'
 
-    grep -B 2 TTATCCGGATTTATTGGGTTTAAAGGGT \* > good-data.txt
+```
+grep -B 2 TTATCCGGATTTATTGGGTTTAAAGGGT \* > good-data.txt
+```
 
 The prompt should sit there a little bit, and then it should look like nothing
 happened. But type `ls`. You should have a new file called good-data.txt. Take
@@ -518,7 +575,9 @@ When it was all whizzing by before, we wished we could just slow it down and
 look at it, like we can with `less`. Well it turns out that we can! We pipe
 the `grep` command through `less`
 
-    grep TTATCCGGATTTATTGGGTTTAAAGGGT \* | less
+```
+grep TTATCCGGATTTATTGGGTTTAAAGGGT \* | less
+```
 
 Now we can use the arrows to scroll up and down and use `q` to get out.
 
@@ -527,12 +586,16 @@ We can also do something tricky and use the command `wc`. `wc` stands for
 it to count the number of lines we're getting back from our `grep` command.
 And that will magically tell us how many sequences we're finding. We're
 
-    grep TTATCCGGATTTATTGGGTTTAAAGGGT \* | wc
+```
+grep TTATCCGGATTTATTGGGTTTAAAGGGT \* | wc
+```
 
 That tells us the number of lines, words and characters in the file. If we
 just want the number of lines, we can use the `-l` flag for `lines`.
 
-    grep TTATCCGGATTTATTGGGTTTAAAGGGT \* | wc -l
+```
+grep TTATCCGGATTTATTGGGTTTAAAGGGT \* | wc -l
+```
 
 Redirecting is not super intuitive, but it's really powerful for stringing
 together these different commands, so you can do whatever you need to do.
@@ -560,7 +623,9 @@ we want to make a copy so we don't lose it.
 Lets copy the file using the `cp` command. The `cp`
 command backs up the file. Navigate to the `data` directory and enter:
 
-    cp stability.files stability.files_backup
+```
+cp stability.files stability.files_backup
+```
 
 Now `stability.files_backup` has been created as a copy of `stability.files`.
 
@@ -569,12 +634,16 @@ Let's make a `backup` directory where we can put this file.
 The `mkdir` command is used to make a directory. Just enter `mkdir`
 followed by a space, then the directory name.
 
-    mkdir backup
+```
+mkdir backup
+```
 
 We can now move our backed up file in to this directory. We can
 move files around using the command `mv`. Enter this command:
 
-    mv stability.files_backup backup/
+```
+mv stability.files_backup backup/
+```
 
 This moves `stability.files_backup` into the directory `backup/` or
 the full path would be `~/edamame-data/shell/MiSeq/backup`
@@ -582,12 +651,16 @@ the full path would be `~/edamame-data/shell/MiSeq/backup`
 The `mv` command is also how you rename files. Since this file is so
 important, let's rename it:
 
-    mv stability.files stability.files_IMPORTANT
+```
+mv stability.files stability.files_IMPORTANT
+```
 
 Now the file name has been changed to stability.files_IMPORTANT. Let's delete
 the backup file now:
 
-    rm backup/stability.files_backup
+```
+rm backup/stability.files_backup
+```
 
 The `rm` file removes the file. Be careful with this command. It doesn't
 just nicely put the files in the Trash. They're really gone.
@@ -596,7 +669,9 @@ By default, `rm`, will NOT delete directories. You can tell `rm` to
 delete a directory using the `-r` option. Let's delete that `new` directory
 we just made. Enter the following command:
 
-    rm -r new
+```
+rm -r new
+```
 
 ### Writing files
 
@@ -609,7 +684,9 @@ To write in files, we're going to use the program `nano`. We're going to create
 a file that contains the favorite grep command so you can remember it for later. We'll name this file
 'awesome.sh'.
 
-    nano awesome.sh
+```
+nano awesome.sh
+```
 
 Now you have something that looks like
 
@@ -633,12 +710,16 @@ on the computer. A program is just a file that you can *execute*. The
 program `which` tells you the location of a particular program. For
 example:
 
-    which ls
+```
+which ls
+```
 
 Will return "/bin/ls". Thus, we can see that `ls` is a program that
 sits inside of the `/bin` directory. Now enter:
 
-    which find
+```
+which find
+```
 
 You will see that `find` is a program that sits inside of the
 `/usr/bin` directory.
@@ -651,7 +732,9 @@ shell automatically looks. If it can't find the program in any of
 those places, it will print an error saying "command not found". Enter
 the command:
 
-    echo $PATH
+```
+echo $PATH
+```
 
 This will print out the value of the `PATH` environment variable. More
 on environment variables later. Notice that a list of directories,
@@ -664,24 +747,32 @@ Navigate to the `shell` directory and list the contents. You will
 notice that there is a program (executable file) called `hello.sh` in
 this directory. Now, try to run the program by entering:
 
-    hello.sh
+```
+hello.sh
+```
 
 You should get an error saying that hello.sh cannot be found. That is
 because the directory `/home/username/edamame-data/shell` is not in the
 `PATH`. You can run the `hello.sh` program by entering:
 
-    ./hello.sh
+```
+./hello.sh
+```
 
 Remember that `.` is a shortcut for the current working
 directory. This tells the shell to run the `hello.sh` program which is
 located right here. So, you can run any program by entering the path
 to that program. You can run `hello.sh` equally well by specifying:
 
-    /home/username/edamame-data/shell/hello.sh
+```
+/home/username/edamame-data/shell/hello.sh
+```
 
 Or by entering:
 
-    ~/edamame-data/shell/hello.sh
+```
+~/edamame-data/shell/hello.sh
+```
 
 When there are no `/` characters, the shell assumes you want to look
 in one of the default places for the program.
@@ -698,22 +789,27 @@ a script.
 
 It's a command, so we should just be able to run it. Give it try.
 
-    ./awesome.sh
+```
+./awesome.sh
+```
 
 Alas, we get `-bash: ./awesome.sh: Permission denied`. This is because we haven't told
 the computer that it's a program. To do that we have to make it 'executable'. We do this
 by changing its mode. The command for that is `chmod` - change mode. We're going to change the mode
 of this file, so that it's executable and the computer knows it's OK to run it as a program.
 
-    chmod +x awesome.sh
+```
+chmod +x awesome.sh
+```
 
 Now let's try running it again
 
-    ./awesome.sh
+```
+./awesome.sh
+```
 
 Now you should have seen some output, and of course, it's AWESOME!
 Congratulations, you just created your first shell script! You're set to rule the world.
-
 
 
 ## For Future Reference

@@ -1,0 +1,6 @@
+GNBP3 400
+GNBP1 30050
+Toll 1240
+Spatzle 4400
+dorsal 87000
+Dmik2 14000
